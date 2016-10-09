@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+<head>
+<?php
+/** Themify Default Variables
+ *  @var object */
+global $themify; ?>
+<meta charset="<?php bloginfo( 'charset' ); ?>">
+<!-- wp_header -->
+<?php wp_head(); ?>
+
+</head>
+
+<body <?php body_class(); ?>>
+
+<?php themify_body_start(); // hook ?>
+
+<div id="pagewrap" class="hfeed site">
+
+	<div id="headerwrap" class="clearfix">
+
+		<?php themify_header_before(); // hook ?>
+
+		<header id="header" class="pagewidth" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+
+        	<?php themify_header_start(); // hook ?>
+
+                        <div class="hgroup">
+				<?php echo themify_logo_image('site_logo'); ?>
+
+				<?php if ( $site_desc = get_bloginfo( 'description' ) ) : ?>
+					<?php global $themify_customizer; ?>
+					<div id="site-description" class="site-description"><?php echo class_exists( 'Themify_Customizer' ) ? $themify_customizer->site_description( $site_desc ) : $site_desc; ?></div>
+				<?php endif; ?>
+			</div>
+
+			<?php if ( themify_is_woocommerce_active() ) : global $woocommerce; ?>
+				<a id="cart-icon" href="#slide-cart"><i class="fa fa-shopping-cart icon-shopping-cart"></i><span class="amount_wrapper"><?php echo $woocommerce->cart->get_cart_subtotal(); ?></span></a>
+			<?php endif; ?>
+
+			<a id="menu-icon" href="#mobile-menu"><i class="fa fa-reorder icon-reorder"></i></a>
+
+			<?php if ( has_nav_menu( 'horizontal-menu' ) ) : ?>
+				<nav class="horizontal-menu-wrap">
+					<?php
+						wp_nav_menu( array( 'theme_location' => 'horizontal-menu' , 'fallback_cb' => 'themify_default_main_nav' , 'container'  => '' , 'menu_id' => 'horizontal-menu' , 'menu_class' => 'horizontal-menu' ) );
+					?>
+					<!-- /#horizontal-menu -->
+				</nav>
+			<?php endif; ?>
+
+			<div id="mobile-menu" class="sidemenu sidemenu-off">
+				<a id="menu-icon-close"><i class="icon-flatshop-close"></i></a>
+
+				<?php if ( ! themify_check( 'setting-exclude_search_form' ) ) : ?>
+					<?php get_search_form(); ?>
+				<?php endif ?>
+
+				<div class="social-widget">
+					<?php dynamic_sidebar('social-widget'); ?>
+
+					<?php if ( ! themify_check('setting-exclude_rss' ) ) : ?>
+						<div class="rss"><a href="<?php themify_theme_feed_link(); ?>"><i class="fa fa-rss icon-rss"></i></a></div>
+					<?php endif ?>
+				</div>
+				<!-- /.social-widget -->
+
+				<nav class="main-nav-wrap" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
+					<?php
+					if ( function_exists( 'themify_custom_menu_nav' ) ) {
+						themify_custom_menu_nav();
+					} else {
+						wp_nav_menu( array(
+							'theme_location' => 'main-nav',
+							'fallback_cb'    => 'themify_default_main_nav',
+							'container'      => '',
+							'menu_id'        => 'main-nav',
+							'menu_class'     => 'main-nav'
+						));
+					}
+					?>
+					<!-- /#main-nav -->
+				</nav>
+			</div>
+			<!-- /#slide-nav -->
+
+			<?php if ( themify_is_woocommerce_active() ) : ?>
+				<div id="slide-cart" class="sidemenu sidemenu-off">
+					<a id="cart-icon-close"><i class="icon-flatshop-close"></i></a>
+					<?php themify_get_ecommerce_template( 'includes/shopdock' ); ?>
+				</div>
+			<?php endif; ?>
+
+		<?php themify_header_end(); // hook ?>
+
+		</header>
+		<!-- /#header -->
+
+        <?php themify_header_after(); // hook ?>
+
+	</div>
+	<!-- /#headerwrap -->
+
+	<div id="body" class="clearfix">
+
+    <?php themify_layout_before(); //hook ?>

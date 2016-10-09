@@ -1,0 +1,100 @@
+/*  
+Skin Name: Indigo
+Version: 1.0
+Description: Skin for Bold
+*/
+
+body {
+	color: #333;
+	background-color: #b399ff;
+}
+
+/* color reset */
+a {
+	color: #000;
+}
+#site-logo a,
+#site-description,
+#main-nav a {
+	color: #fff;
+}
+#main-nav a:hover,
+#main-nav li:hover > a,
+#main-nav .current_page_item a,
+#main-nav .current_page_item a:hover {
+	color: #916ef5;
+}
+
+/* headerwrap and footerwrap */
+#headerwrap {
+	border-color: #261063;
+}
+#footerwrap {
+	border-top: 1px solid #261063;
+}
+
+#headerwrap,
+#footerwrap {
+	color: #fff;
+	background-color: #4423a1;
+}
+
+/* header */
+#site-description {
+	border-color: #592ed3;
+}
+#main-nav ul {
+	border-color: #fff;
+}
+#main-nav ul:before {
+	border-bottom-color: #fff;
+}
+#main-nav ul ul:before {
+	border-right-color: #fff;
+}
+
+#header #searchform #s {
+	background-color: #b4a6d9;
+	background-color: rgba(255,255,255,.6);
+	color: #7d7497;
+}
+#header #searchform #s:focus {
+	color: #fff;
+}
+
+/* footer */
+#footer,
+#footer a,
+.footer-text {
+	color: #fff;
+	color: rgba(255,255,255,.6);
+}
+
+/* form input and buttons */
+input[type=text],
+input[type=password],
+textarea,
+input[type=search],
+input[type=email] {
+	background-color: #a18ae5;
+}
+input[type=reset]:hover,
+input[type=submit]:hover,
+button:hover {
+	color: #fff;
+	background-color: #444;
+}
+
+/* load more button and page navigation */
+#load-more a,
+.post-nav .arrow,
+.pagenav a {
+	background-color: #333;
+}
+
+/* horizontal rule and commentlist */
+hr,
+.commentlist,
+.commentlist .commententry {
+	border-color: #a18ae5;
+}

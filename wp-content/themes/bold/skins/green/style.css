@@ -1,0 +1,85 @@
+/*  
+Skin Name: Green
+Version: 1.0
+Description: Skin for Bold
+*/
+
+body {
+	color: #424d2e;
+	background-color: #c3ea75;
+}
+
+/* color reset */
+a {
+	color: #333;
+}
+#site-logo a,
+#site-description,
+#main-nav a {
+	color: #fff;
+}
+#main-nav a:hover,
+#main-nav li:hover > a,
+#main-nav .current_page_item a,
+#main-nav .current_page_item a:hover {
+	color: #083f4d;
+}
+
+/* headerwrap and footerwrap */
+#headerwrap {
+	border-color: #45620d;
+}
+#footerwrap {
+	border-top: 1px solid #45620d;
+}
+
+#headerwrap,
+#footerwrap {
+	color: #fff;
+	background-color: #75992e;
+}
+
+/* header */
+#site-description {
+	border-color: #9bb961;
+}
+
+#header #searchform #s {
+	background-color: #c7d5ab;
+	background-color: rgba(255,255,255,.6);
+	color: #8b9477;
+}
+#header #searchform #s:focus {
+	color: #083f4d;
+}
+
+/* footer */
+#footer,
+#footer a,
+.footer-text {
+	color: #fff;
+	color: rgba(255,255,255,.6);
+}
+
+/* form input and buttons */
+input[type=text],
+input[type=password],
+textarea,
+input[type=search],
+input[type=email] {
+	background-color: #aed169;
+}
+
+/* load more button and page navigation */
+#load-more a,
+.post-nav .arrow,
+.pagenav a {
+	background-color: #333;
+}
+
+/* horizontal rule and commentlist */
+hr,
+.commentlist,
+.commentlist .commententry {
+	border-color: #aed169;
+}

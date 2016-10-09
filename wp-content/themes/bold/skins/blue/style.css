@@ -1,0 +1,99 @@
+/*  
+Skin Name: Blue
+Version: 1.0
+Description: Skin for Bold
+*/
+
+body {
+	color: #000;
+	background-color: #b4eefd;
+}
+
+/* color reset */
+a {
+	color: #0c5d71;
+}
+#site-logo a,
+#site-description,
+#main-nav a {
+	color: #fff;
+}
+#main-nav a:hover,
+#main-nav li:hover > a,
+#main-nav .current_page_item a,
+#main-nav .current_page_item a:hover {
+	color: #083f4d;
+}
+h1, h2, h3, h4, h5, h6,
+.page-title,
+.post-nav a,
+.widgettitle,
+.comment-title,
+#reply-title {
+	color: #000;
+}
+
+/* headerwrap and footerwrap */
+#headerwrap {
+	border-color: #1b6b7f;
+}
+#footerwrap {
+	border-top: 1px solid #1b6b7f;
+}
+
+#headerwrap,
+#footerwrap {
+	color: #fff;
+	background-color: #15a3c6;
+}
+
+/* header */
+#site-description {
+	border-color: #2daccc;
+}
+
+#header #searchform #s {
+	background-color: #a1d9e7;
+	background-color: rgba(255,255,255,.6);
+	color: #7097a1;
+}
+#header #searchform #s:focus {
+	color: #083f4d;
+}
+
+/* footer */
+#footer,
+#footer a,
+.footer-text {
+	color: #fff;
+	color: rgba(255,255,255,.6);
+}
+
+/* form input and buttons */
+input[type=text],
+input[type=password],
+textarea,
+input[type=search],
+input[type=email] {
+	background-color: #a1d6e3;
+}
+input[type=reset]:hover,
+input[type=submit]:hover,
+button:hover {
+	color: #fff;
+	background-color: #444;
+}
+
+/* load more button and page navigation */
+#load-more a,
+.post-nav .arrow,
+.pagenav a {
+	background-color: #333;
+}
+
+/* horizontal rule and commentlist */
+hr,
+.commentlist,
+.commentlist .commententry {
+	border-color: #a1d6e3;
+}

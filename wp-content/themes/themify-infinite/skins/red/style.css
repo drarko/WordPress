@@ -1,0 +1,15 @@
+/*  
+Skin Name: Red
+Version: 1.0
+Description: Skin for Infinite
+*/
+
+#headerwrap,
+.sidemenu {
+	background-color: #a01d00;
+	color: #fff;
+}
+#headerwrap a,
+.sidemenu a {
+	color: #fff;
+}

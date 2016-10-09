@@ -1,0 +1,371 @@
+#wpbody-content {
+	background-color:#fff;
+}
+#wpcontent {
+    padding-left: 0px;
+}
+#wpwrap, #wpcontent {
+	background-color:#fff;
+}
+
+.wrap {
+	margin-top:0px;
+	padding:0px;
+}
+
+.inbound-setting .hidden {
+	display:none;
+}
+
+.inbound-settings-group  .inbound-setting h4 {
+	padding-top:30px;
+}
+
+
+/* search */
+.templates-filter-group {
+	text-align:left;
+	width:100%;
+}
+
+.filter-search {
+	text-align:left;
+	width: 215px;
+	  margin-top: -20px;
+	  margin-bottom: 15px;
+}
+
+/* Settings Rows */
+.inbound-settings-group {
+	padding: 20px 20px 20px 20px ;
+	border-right: 1px solid #aaa;
+	border-left: 1px solid #aaa;
+	border-bottom: 1px solid #aaa;
+	border-top: 1px solid #aaa;
+	background: #eee;
+	margin-bottom:20px;
+	display:block;
+	width:100%;
+}
+
+.inbound-settings-group:nth-child(odd) {
+	background: #ddd;
+	color: #000;
+}
+
+.welcome-screen-content  {
+	padding-left:3em !important;
+}
+
+.welcome-screen-content p  {
+	font-size:20px;
+}
+
+.welcome-screen-content img {
+	padding-bottom:20px;
+}
+
+.welcome-screen-content h1 {
+	font-size:30px;
+	padding-top:10px;
+}
+.welcome-screen-content h2 {
+	padding-top:10px;
+	font-size:23px;
+}
+
+.welcome-screen-content h3 {
+	font-size:17px;
+}
+
+ul.features {
+	 list-style-type: circle;
+	margin-left:20px;
+}
+
+ul.uninstall {
+	 list-style-type: circle;
+	margin-left:20px;
+}
+
+/* Fonts */
+
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+
+/* License Key */
+
+.api-key {
+  margin:auto;
+  font-family: 'Oswald', sans-serif;
+  width:100%;
+
+}
+.all-30, .all-20, .all-25 {
+	margin-right: 10px;
+}
+.api-key label{
+  font-size: 20px;
+  height:100px;
+  left: 0;
+  width:100%;
+  margin-right: 20px;
+  color: #000;
+  margin-bottom: 10px;
+  z-index:-1;
+  transition-duration: 0.2s;
+  transition-property: transform;
+}
+.ink-button.blue {
+	width: 100%;
+	margin-top: 20px;
+}
+.api-key  input{
+  border:none;
+  padding: 10px;
+  border-color: #5b9dd9;
+	-webkit-box-shadow: 0 0 2px rgba(30,140,190,.8);
+	box-shadow: 0 0 2px rgba(30,140,190,.8);
+  color: #000;
+  background:#fff;
+  outline:none;
+  font-family:'Oswald', sans-serif;
+  width:75%;
+  transition-property: transform;
+  font-size:16px
+
+}
+
+.api-key .invalid {
+	border-style: solid;
+    border-width: 2px;
+	border-color:  #b94a48 !important;
+}
+
+.invalid-icon {
+	margin-left:20px;
+	color:#b94a48 !important;
+}
+
+.valid-icon {
+	margin-left:20px;
+	color: green;
+}
+
+.processing-icon {
+    margin-left:20px;
+}
+
+.api-key .valid {
+	border-style: solid;
+    border-width: 2px;
+	border-color: #AAD661 !important;
+}
+
+.api-key  input:focus label{
+  transform:translateY(-45px) translateX(-80px) scale(0.6);
+}
+
+.api-key input:valid + label {
+  transform:translateY(-45px) translateX(-80px) scale(0.6);
+}
+.api-key  input:valid + label::after{
+  display:block;
+  transform:translateX(-10px) rotate(-45deg)
+}
+.api-key  input:invalid + label::after{
+  transform:translateX(100px) rotate(-45deg)
+}
+
+/* Field Styles */
+.inbound-field div {
+	display:inline-block;
+	position: relative;
+}
+.inbound-field {
+	margin-bottom: 10px;
+}
+
+.inbound-label-field {
+	min-width:170px;
+	vertical-align:middle;
+}
+
+.inbound-ol-field {
+	margin-top:-6px;
+}
+
+.inbound-ol-field ol {
+	list-style:disc !important;
+}
+
+.inbound-ul-field ul {
+	list-style:disc !important;
+}
+
+.ink-button {
+	margin-bottom:10px;
+}
+
+/* Footer */
+
+.footer-left {
+	vertical-align:top;
+	width:40%;
+	padding-right:40px;
+}
+
+.footer-right {
+	vertical-align:top;
+	width:60%;
+
+}
+.footer-right-h2 {
+	//padding-left:27px;
+	padding-bottom:10px;
+
+}
+
+.pro-footer {
+	text-align:right;
+}
+
+/* sidebar */
+.sidebar-h6 {
+	color: #a9a9a9;
+}
+
+/**
+*
+* Leads Field Mapping & IP Address Repeaters
+*
+*/
+
+.field-map input ,.field-map select , .map-row-addnew input , .map-row-addnew select, .ip-address-row input  , .ip-address-row-addnew input   {
+	width:100%;
+	height:40px;
+	padding-left:5px;
+}
+
+.map-row-headers {
+	margin-left:0px;
+	margin-top:10px;
+	font-weight:600;
+	border-bottom: #ddd solid 2px;
+}
+
+#field-map {
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.api-key {
+	position: relative;
+}
+.map-row {
+	border-bottom: #ddd solid 1px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+input.update-done {
+	border:1px solid #33B829;
+}
+.update-text, .processing {
+	position: absolute;
+	  /* left: 32%; */
+	  font-size: 11px;
+	  top: 4px;
+	  right: -70px;
+}
+.map-row-addnew {
+	margin-left:0px;
+}
+#add-ip-address {
+	margin-left: -10px;
+}
+
+.map-handle {
+	vertical-align: center;
+	margin-top:3px;
+}
+.ip-address-actions {
+	margin-left: 10px;
+}
+.drag-handle  {
+	color: #919191;
+	cursor: move;
+	margin-top: 10px;
+	margin-left: 13px;
+	display: block;
+}
+.drag-handle .fa {
+  font-size: 17px;
+}
+
+.ink-grid {
+  padding: 0 1em;
+}
+
+.field-ip-addresses {
+	margin-left:0px;
+	padding-left:0px;
+}
+
+.tooltip {
+    float:right;
+    position:absolute;
+    overflow:inherit;
+}
+
+.repeater-lead-statuses ul {
+	margin-left:0px;
+	padding-left:0px;
+}
+
+.repeater-lead-statuses .status-colorpicker {
+	float: none;
+	padding-left: 44px;
+	display: block;
+	width: 100%;
+	height: 39px;
+	/* padding: 6px 12px; */
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.repeater-lead-statuses .status-label {
+	height: 39px;
+	padding: 6px 12px;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+	-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.repeater-lead-statuses  .minicolors-swatch {
+	width:30px !important;
+	height:30px !important;
+}
+
+
+.sparkpost-status-table {
+	margin:0px !important;
+}
+

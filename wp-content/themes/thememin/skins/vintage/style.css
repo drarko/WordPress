@@ -1,0 +1,190 @@
+/*  
+Skin Name: Vintage
+Version: 1.0
+Description: Skin for ThemeMin theme.
+*/
+
+body {
+	background-color: #fcfae9;
+	color: #907d62;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #56432b;
+}
+a {
+	color: #c6620a;
+}
+a:hover {
+	color: #f77b0e;
+}
+input[type=text], input[type=password], textarea {
+	border: solid 1px #e3e0ce;
+	background-color: #f5f0de;
+	color: #666;
+}
+textarea:focus, input[type=password]:focus, input[type=text]:focus {
+	border: solid 1px #857661;
+	color: #333;
+}
+input[type=reset], input[type=submit] {
+	background-color: #907d62;
+	color: #fff;
+}
+input[type=reset]:hover, input[type=submit]:hover {
+	background-color: #f77b0e;
+	color: #fff;
+}
+
+/* header */
+#header {
+	border-color: #907d62;
+}
+#site-logo a {
+	color: #603913;
+}
+#site-logo a:hover {
+	color: #c6620a;
+}
+#site-description {
+	color: #9f8e75;
+}
+/* main nav */
+#main-nav a {
+	color: #736654;
+}
+#main-nav a:hover {
+	color: #c6620a;
+}
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	color: #c6620a;
+	border-color: #e1dbc7;
+}
+#main-nav .current_page_item a:hover, #main-nav .current-menu-item a:hover {
+	color: #c6620a;
+}
+
+/* slider */
+#header-slider, #footer-slider {
+	border-color: #907d62;
+}
+.slides h3 a {
+	color: #736654;
+}
+.slides h3 a:hover, .slides li:hover h3 a {
+	color: #c6620a;
+}
+.slider-nav {
+	border-color: #e1dbc7;
+	color: #907d62;
+}
+.slider-nav a {
+	color: #736654;
+}
+.slider-nav a:hover {
+	color: #c6620a;
+}
+.slider-nav a span {
+	color: #56432b;
+}
+
+/* post title */
+.post-title, .post-title a {
+	color: #603913;
+}
+.post-title a:hover {
+	color: #c6620a;
+}
+
+/* post date wrap */
+.post-date-wrap .post-comment {
+	border-color: #e1dbc7;
+}
+.post-date-wrap .post-comment a {
+	color: #907d62;
+}
+.post-date-wrap .post-comment a:hover {
+	color: #c6620a;
+}
+.list-post .post-date {
+	color: #774b20;
+}
+.list-post .post-date .year {
+	color: #774b20;
+}
+/* post meta bottom */
+.post-meta {
+	color: #b9a588;
+	border-color: #e1dbc7;
+}
+.post-meta em {
+	color: #774b20;
+}
+.post-meta a {
+	color: #b9a588;
+}
+.post-meta a:hover {
+	color: #c6620a;
+}
+
+/* next prev post */
+.post-nav {
+	border-color: #c6bca5;
+}
+.post-nav span em {
+	color: #56432b;
+}
+.post-nav a {
+	color: #b9a588;
+}
+.post-nav a:hover {
+	color: #c6620a;
+}
+.post-nav span.arrow {
+	color: #56432b;
+}
+
+/* section category */
+.category-section-title {
+	border-color: #c6bca5;
+}
+
+/* comments */
+.commentwrap {
+	border-color: #c6bca5;
+}
+.commentlist {
+	border-color: #c6bca5;
+}
+.commentlist .comment-time {
+	color: #907d62;
+}
+.commentlist .commententry {
+	border-color: #e1dbc7;
+}
+.commentlist #cancel-comment-reply-link {
+	color: #736654;
+}
+.commentlist #cancel-comment-reply-link:hover {
+	color: #c6620a;
+}
+#respond #cancel-comment-reply-link {
+	color: #736654;
+}
+#respond #cancel-comment-reply-link:hover {
+	color: #c6620a;
+}
+
+/* sidebar */
+.widgettitle {
+	border-color: #c6bca5;
+	color: #56432b;
+}
+.widget li, .widget ul ul li {
+	border-color: #e1dbc7;
+}
+
+/* footer */
+#footer {
+	border-color: #907d62;
+}
+

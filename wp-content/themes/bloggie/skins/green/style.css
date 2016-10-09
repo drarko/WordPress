@@ -1,0 +1,61 @@
+/*  
+Skin Name: Green
+Version: 1.0
+Description: Skin for Bloggie theme.
+*/
+
+a {
+	color: #4b773c;
+}
+
+/* top bar */
+#topbar {
+	background-color: #214927;
+	color: #d0e4d3;
+}
+
+/* tpp bar */
+#topbar a {
+	color: #fffde0;
+}
+#topbar a:hover {
+	color: #fff;
+}
+
+/* nav bar */
+#nav-bar {
+	background-color: #214927;
+}
+
+/* main nav */
+#main-nav a {
+	color: #fffde0;
+}
+#main-nav a:hover {
+	color: #fff;
+}
+
+/* dropdown */
+#main-nav ul, #secondary-nav ul {
+	background-color: #214927;
+}
+#main-nav ul li a, #secondary-nav ul li a {
+	color: #fffde0;
+	border-color: #2b5932;
+}
+
+/* footer */
+#footer {
+	background-color: #214927;
+	color: #d0e4d3;
+}
+#footer a {
+	color: #fffde0;
+}
+#footer .widgettitle, #footer .widgettitle a {
+	color: #fff;
+	border-color: #2b5932;
+}
+#footer .widget li {
+	border-color: #2b5932;
+}

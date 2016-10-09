@@ -1,0 +1,32 @@
+#wpbody-content .wrap, #wpbody-content #screen-options-link-wrap, #post-body-content .a_b_tabs, #inbound_email_metabox_select_template, #inbound-mailer-thumbnail-sidebar-preview, #main-title-area, #inbound-mailer-notes-area, #inbound-mailer-current-view, #switch-wp-cta {
+	display:none;
+}
+
+#templates {
+	position: relative;
+}
+
+#templates #inbound_email_template_change {
+	position: absolute;
+	top: 55px;
+	left: 290px;
+}
+
+
+.inbound-mailer-selection-heading{width: 89%; margin-top: 20px;}
+.inbound-mailer-selection-heading h1 {display: inline;}
+#template-box {
+	background: #FCFDFE;
+	padding: 3%;
+	margin-right: 10px;
+	border: 1px solid #E0E0E0;
+	-moz-border-radius: 7px;
+	border-radius: 7px;
+	position: relative;
+	overflow: hidden;
+	display: block;
+}
+
+
+.inbound_email_check_box_table td {padding: 0px;}
+.inbound_email_check_box_table {display: inline; float: left;}

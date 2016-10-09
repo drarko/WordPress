@@ -1,0 +1,61 @@
+/*  
+Skin Name: Purple
+Version: 1.0
+Description: Skin for Bloggie theme.
+*/
+
+a {
+	color: #5a4e93;
+}
+
+/* top bar */
+#topbar {
+	background-color: #251e4e;
+	color: #d0cde1;
+}
+
+/* tpp bar */
+#topbar a {
+	color: #ded9fa;
+}
+#topbar a:hover {
+	color: #fff;
+}
+
+/* nav bar */
+#nav-bar {
+	background-color: #251e4e;
+}
+
+/* main nav */
+#main-nav a {
+	color: #ded9fa;
+}
+#main-nav a:hover {
+	color: #fff;
+}
+
+/* dropdown */
+#main-nav ul, #secondary-nav ul {
+	background-color: #251e4e;
+}
+#main-nav ul li a, #secondary-nav ul li a {
+	color: #ded9fa;
+	border-color: #4b407f;
+}
+
+/* footer */
+#footer {
+	background-color: #251e4e;
+	color: #d0cde1;
+}
+#footer a {
+	color: #fffac2;
+}
+#footer .widgettitle, #footer .widgettitle a {
+	color: #fff;
+	border-color: #4b407f;
+}
+#footer .widget li {
+	border-color: #4b407f;
+}

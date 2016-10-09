@@ -1,0 +1,210 @@
+/************************************************************************************
+GENERAL
+*************************************************************************************/
+body {
+	text-align: right;
+}
+blockquote:before {
+	content: '\201D';
+	margin-right: -0.5em;
+}
+
+/************************************************************************************
+STRUCTURE
+*************************************************************************************/
+#content {
+	padding-left: 6%;
+	padding-right: 0;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+/* Menu */
+#main-nav {
+	margin-right: 1.6em;
+}
+#main-nav li a:after {
+	right: 0;
+	left: auto;
+}
+
+/* Social Widget */
+#searchform-wrap,
+.social-widget {
+	float: left;
+}
+.social-widget {
+	margin-left: 81px;
+	margin-top: 0.75em;
+}
+#headerwrap #searchform {
+	right: auto;
+	left: 0;
+	border-left: none;
+	border-right: solid 1px #fff;
+}
+
+/************************************************************************************
+POST
+*************************************************************************************/
+.loops-wrapper .post {
+	text-align: right;
+}
+.post-meta span {
+	margin-right: 0;
+	margin-left: 0.6em;
+}
+.post-date {
+	margin-right: 0;
+	margin-left: 1.5em;
+}
+.post-date:before,
+.post-tag:before,
+.post-comment:before {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+/* single post */
+.single-post.sidebar-none .featured-area,
+.single-portfolio.sidebar-none .featured-area {
+	left: 0;
+}
+.single-post.sidebar-none .author-box,
+.single-post.sidebar-none .commentwrap {
+	margin-right:  auto;
+}
+
+/* portfolio post */
+.project-date,
+.project-client,
+.project-services,
+.project-view {
+	border-left: none;
+	border-right: 1px solid #e5e5e5;
+}
+.project-date {
+	border-right: none;
+	padding-right: 0;
+	margin-right: .35em;
+}
+
+/************************************************************************************
+POST NAVIGATION
+*************************************************************************************/
+/* post navigation */
+.post-nav .prev {
+	text-align: left;
+}
+
+/************************************************************************************
+WIDGET STYLES
+*************************************************************************************/
+/* feature-posts-list */
+.widget .feature-posts-list .post-img {
+    float: right;
+    margin-left: 1.2em;
+    margin-right: 0;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footer {
+	text-align: right;
+}
+
+/************************************************************************************
+WOOCOMMERCE
+*************************************************************************************/
+.woocommerce div.product form.cart div.quantity,
+.woocommerce div.product form.cart .button {
+	float: right;
+	margin-left: 8px;
+}
+
+/************************************************************************************
+SPLIT SCROLL
+*************************************************************************************/
+#right-content .themify_builder_row {
+	left: auto;
+	right: -100%;
+}
+
+/************************************************************************************
+RESPONSIVE
+*************************************************************************************/
+@media screen and (max-width: 1000px) {
+	/* search */
+	#searchform-wrap,
+	.social-widget {
+		float: none;
+	}
+
+	/* menu */
+	#headerwrap #menu-icon {
+		right: auto;
+		left: 0;
+	}
+	#headerwrap #main-nav {
+		text-align: right;
+	}
+	#headerwrap #main-nav ul {
+		padding-left: 0;
+		}
+	#headerwrap #main-nav ul a {
+		text-align: right;
+		padding-right: 1em;
+	}
+	.rtl.sidemenu-active {
+		left: 0;
+	}
+
+}
+
+@media screen and (max-width: 760px) {
+	#content {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.single-post.sidebar-none .post-nav,
+	.single-portfolio.sidebar-none .post-nav {
+		padding: 0;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	.col6-1,
+	.col5-1,
+	.col4-1, .col4-2, .col4-3,
+	.col3-1, .col3-2,
+	.col2-1 {
+		margin-right: 0;
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+/************************************************************************************
+PROGRESS BAR
+*************************************************************************************/
+.progress-bar {
+	text-align: right;
+}
+
+/************************************************************************************
+BIGVIDEO
+*************************************************************************************/
+.big-video-wrap video {
+	right: 0;
+}
+
+/************************************************************************************
+SPIINER
+*************************************************************************************/
+.split-spinner {
+	right: 50%;
+	left: auto;
+	margin: -25px -25px 0 0;
+}

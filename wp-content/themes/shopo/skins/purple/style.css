@@ -1,0 +1,23 @@
+/*  
+Skin Name: Purple
+Version: 1.0
+Description: Skin for Shopo
+*/
+
+a {
+	color: #5f5d80;
+}
+
+/* nav bar and footerwrap*/
+#nav-bar, #footerwrap, .welcome-message {
+	background-color: #7671a1;
+	border-color: #5f5d80;
+}
+
+/* footer */
+#footer {
+	color: #d6d5e3;
+}
+#footer .widget li {
+	border-color: #646089;
+}

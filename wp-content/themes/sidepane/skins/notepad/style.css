@@ -1,0 +1,63 @@
+/*  
+Skin Name: Notepad
+Version: 1.0
+Description: Skin for Sidepane theme.
+*/
+
+body {
+	background: #ffffd7 url(images/html-bg.png) repeat;
+}
+
+body a {
+	color: #C60;
+}
+body a:hover {
+	color: #67291b;
+}
+
+input[type=reset], input[type=submit] {
+	background-color: #67291b;
+	color: #fff;
+}
+input[type=reset]:hover, input[type=submit]:hover {
+	background-color: #C60;
+}
+
+/* main nav wrap */
+#main-nav-wrap {
+	border-color: #73573a;
+}
+
+/* sidebar */
+#sidebar-wrap {
+	background: url(images/side-bg.png) repeat-y fixed;
+}
+#sidebar {
+	background: none;
+	color: #cfbdaa;
+}
+#sidebar input[type=text], #sidebar input[type=password], #sidebar textarea {
+	background-color: #cfbdaa;
+	color: #333;
+}
+#sidebar ul, #sidebar li {
+	border-color: #73573a;
+}
+#sidebar h4, .widgettitle {
+	color: #fff;
+}
+#sidebar a {
+	color: #FFC;
+}
+#sidebar a:hover {
+	color: #fff;
+}
+
+/* site logo */
+#site-logo a {
+	color: #fff;
+}
+
+/* footer-text */
+#footer-text {
+}

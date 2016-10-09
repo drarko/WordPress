@@ -1,0 +1,52 @@
+/*  
+Skin Name: Olive
+Version: 1.0
+Description: Skin for Sidepane.
+*/
+
+/* body link */
+a {
+	color: #836212;
+}
+
+/* form element */
+input[type=reset], input[type=submit] {
+	background-color: #836212;
+	color: #fff;
+}
+
+/* main nav wrap */
+#main-nav-wrap {
+	border-color: #978b5b;
+}
+
+/* sidebar */
+#sidebar-wrap {
+	background: url(images/side-bg.png) repeat-y fixed;
+}
+#sidebar {
+	background: none;
+	color: #d9d5c3;
+}
+#sidebar a {
+	color: #FFC;
+}
+#sidebar a:hover {
+	color: #fff;
+}
+
+/* sidebar form elements */
+#sidebar input[type=text], #sidebar input[type=password], #sidebar textarea {
+	background-color: #b3aa87;
+	color: #333;
+}
+
+/* sidebar widget */
+#sidebar .widget ul, #sidebar .widget li {
+	border-color: #978b5b;
+}
+
+/* site logo */
+#site-logo a {
+	color: #fff;
+}

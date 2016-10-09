@@ -1,0 +1,15 @@
+/*  
+Skin Name: Yellow
+Version: 1.0
+Description: Skin for Infinite
+*/
+
+#headerwrap,
+.sidemenu {
+	background-color: #ccc61a;
+	color: #fff;
+}
+#headerwrap a,
+.sidemenu a {
+	color: #fff;
+}

@@ -1,0 +1,21 @@
+/*  
+Skin Name: Blue
+Version: 1.0
+Description: Skin for Metro
+*/
+
+/* default blue color */
+#main-nav a,
+.tile.default,
+.tile-overlay,
+.portfolio #load-more a,
+.post,
+.widget,
+.sorting-nav li {
+	background-color: #09a3e2;
+}
+
+/* body */
+body {
+	background-color: #005392;
+}

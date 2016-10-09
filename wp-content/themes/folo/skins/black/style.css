@@ -1,0 +1,131 @@
+/*  
+Skin Name: Black
+Version: 1.0
+Description: Skin for Folo
+*/
+
+body {
+	background-color: #464646;
+	color: #bbb;
+}
+a {
+	color: #c3e5f3;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #fff;
+}
+
+/* form */
+input[type=text], input[type=password], textarea, input[type=search] {
+	background-color: #666;
+	border-color: #333;
+}
+input[type=reset], input[type=submit] {
+	background-color: #252525;
+	border-color: #000;
+}
+input[type=reset]:hover, input[type=submit]:hover {
+	background-color: #000;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#headerwrap {
+	background-color: #555;
+	border-top-color: #000;
+	border-bottom-color: #000;
+}
+
+/* logo wrap */
+.logo-wrap {
+	background-color: #252525;
+	border-color: #000;
+}
+
+/************************************************************************************
+MAIN NAV
+*************************************************************************************/
+/* main level link */
+.main-nav a {
+	color: #bbb;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.7);
+}
+/* main level link :hover */
+.main-nav a:hover, .main-nav li:hover > a {
+	color: #fff;
+}
+/* current link */
+.main-nav .current_page_item a, .main-nav .current-menu-item a {
+	color: #fff;
+}
+/* current link :hover */
+.main-nav .current_page_item a:hover, .main-nav .current-menu-item a:hover {
+	color: #fff;
+}
+
+
+/************************************************************************************
+UPPER WRAP
+*************************************************************************************/
+#upperwrap {
+	background-color: #3d3d3d;
+}
+
+/************************************************************************************
+POST
+*************************************************************************************/
+.post-title, .post-title a {
+	color: #fff;
+}
+
+/* more link */
+.more-link {
+	background-color: #252525;
+}
+.more-link:hover {
+	background-color: #000;
+}
+
+/* post meta */
+.post-meta a {
+	color: #ccc;
+}
+
+/************************************************************************************
+COMMENTS
+*************************************************************************************/
+.commentlist .comment-reply-link {
+	background-color: #252525;
+	border-color: #000;
+}
+.commentlist .comment-reply-link:hover {
+	background-color: #000;
+}
+
+/* cancel reply link */
+#respond #cancel-comment-reply-link {
+	background-color: #252525;
+	border-color: #000;
+}
+#respond #cancel-comment-reply-link:hover {
+	background-color: #000;
+}
+
+/************************************************************************************
+Footer
+*************************************************************************************/
+#footer-logo a {
+	color: #fff;
+}
+#footerwrap {
+	background-color: #333;
+}
+
+/* border color */
+.home-highlights,
+.welcome-message,
+.home-widgets,
+.footer-nav {
+	border-color: #444;
+}

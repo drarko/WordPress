@@ -1,0 +1,141 @@
+/*  
+Skin Name: Blue
+Version: 1.0
+Description: Skin for Rezo
+*/
+
+body {
+	background: #122447 url(images/html-bg.png);
+	color: #666;
+}
+#pagewrap {
+	background: url(images/body-bg.png) repeat-x;
+}
+a {
+	color: #0054a6;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #103757;
+}
+input[type=text], input[type=password], textarea {
+	background-color: #e7eff2;
+}
+input[type=reset], input[type=submit] {
+	background-color: #103757;
+}
+
+/************************************************************************************
+SLIDER
+*************************************************************************************/
+/* default slide */
+#slider li.slider-default {
+	background-color: #97b0c7;
+	color: #3c4650;
+}
+.slider-default a {
+	color: #000;
+}
+.slider-default h3 {
+	color: #fff;
+	background-color: #567ea2;
+}
+.slider-default h3 span {
+	border-color: #7898b5;
+}
+
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+#nav-bar {
+	background: url(images/nav-bg.png) no-repeat left bottom;
+}
+/* main level link */
+#main-nav a {
+	color: #cddee6;
+}
+/* main level link :hover */
+#main-nav a:hover {
+	color: #fff;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #073449;
+}
+
+/* social widget */
+.social-widget {
+	color: #cddee6;
+}
+
+/* post title */
+.post-title a {
+	color: #103757;
+}
+
+/* page nav */
+.pagenav .number {
+	background-color: #333;
+	color: #fff;
+}
+.pagenav .number:hover {
+	background-color: #000;
+}
+.pagenav .current, .pagenav .current:hover {
+	background-color: #fff;
+	color: #666;
+}
+
+
+/************************************************************************************
+MENU
+*************************************************************************************/
+.menu-title {
+	background: url(images/menu-title-bg.png) no-repeat top center;
+	color: #fff;
+}
+.menu-category {
+	color: #444;
+	background-color: #f3f3f3;
+}
+
+
+/************************************************************************************
+SIDEBAR
+*************************************************************************************/
+#sidebar .widgetwrap {
+	background-color: #f4f8f9;
+}
+#sidebar .widget {
+	border-color: #dae3e6;
+}
+#sidebar .widget li {
+	border-color: #e8eef1;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footer {
+	border-color: #4b6873;
+	color: #999;
+}
+#footer a {
+	color: #fff;
+}
+
+/* footer widget */
+#footer .widgettitle {
+	color: #fff;
+}
+#footer li {
+	border-color: #333;
+}
+
+/* footer text */
+.footer-text {
+	color: #ccc;
+}
+.footer-text a {
+	color: #fff;
+}

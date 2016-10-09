@@ -1,0 +1,65 @@
+/*  
+Skin Name: Brown
+Version: 1.0
+Description: Skin for Slide
+*/
+
+a {
+	color: #91612e;
+}
+
+/* form button */
+input[type=reset], input[type=submit], button {
+	background-color: #6c553d;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#headerwrap {
+	background-color: #a27647;
+	border-color: #6c553d;
+}
+#header {
+	color: #ddd;
+}
+#header a {
+	color: #fbfede;
+}
+
+#site-logo,
+#site-logo a {
+	color: #fff;
+	
+	text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+#main-nav a {
+	color: #fbfede;
+
+	text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+}
+#main-nav a:hover {
+	color: #fff;
+}
+
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #6c553d;
+	color: #fff;
+}
+
+/************************************************************************************
+POST
+*************************************************************************************/
+.post-date {
+	background-color: #6c553d;
+}
+
+/* post nav arrow */
+.post-nav .arrow {
+	background-color: #6c553d;
+}

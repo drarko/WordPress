@@ -1,0 +1,81 @@
+/*  
+Skin Name: Black
+Version: 1.0
+Description: Skin for Bold
+*/
+
+body {
+	color: #fff;
+	background-color: #666;
+}
+
+/* color reset */
+a,
+h1, h2, h3, h4, h5, h6,
+#site-logo a,
+#site-description,
+#main-nav a,
+.page-title,
+.post-nav a,
+.widgettitle,
+.comment-title,
+#reply-title {
+	color: #fff;
+}
+#main-nav a:hover,
+#main-nav li:hover > a,
+#main-nav .current_page_item a,
+#main-nav .current_page_item a:hover {
+	color: #bbb;
+}
+
+/* headerwrap and footerwrap */
+#headerwrap {
+	border-color: #777;
+}
+#footerwrap {
+	border-top: 1px solid #777;
+}
+
+#headerwrap,
+#footerwrap {
+	color: #fff;
+	background-color: #000;
+}
+
+/* header */
+#site-description {
+	border-color: #444;
+}
+#main-nav ul {
+	border-color: #fff;
+}
+#main-nav ul:before {
+	border-bottom-color: #fff;
+}
+#main-nav ul ul:before {
+	border-right-color: #fff;
+}
+
+#header #searchform #s {
+	background-color: #999;
+	background-color: rgba(255,255,255,.6);
+	color: #6a6a6a;
+}
+#header #searchform #s:focus {
+	color: #fff;
+}
+
+/* footer */
+#footer,
+#footer a,
+.footer-text {
+	color: #fff;
+	color: rgba(255,255,255,.6);
+}
+
+/* load more button and page navigation */
+#load-more a,
+.post-nav .arrow {
+	background-color: #333;
+}

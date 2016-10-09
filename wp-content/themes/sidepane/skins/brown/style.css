@@ -1,0 +1,52 @@
+/*  
+Skin Name: Brown
+Version: 1.0
+Description: Skin for Sidepane.
+*/
+
+/* body link */
+a {
+	color: #6a4118;
+}
+
+/* form element */
+input[type=reset], input[type=submit] {
+	background-color: #6a4118;
+	color: #fff;
+}
+
+/* main nav wrap */
+#main-nav-wrap {
+	border-color: #8f6f4f;
+}
+
+/* sidebar */
+#sidebar-wrap {
+	background: url(images/side-bg.png) repeat-y fixed;
+}
+#sidebar {
+	background: none;
+	color: #d7cbbf;
+}
+#sidebar a {
+	color: #FFC;
+}
+#sidebar a:hover {
+	color: #fff;
+}
+
+/* sidebar form elements */
+#sidebar input[type=text], #sidebar input[type=password], #sidebar textarea {
+	background-color: #ab937b;
+	color: #333;
+}
+
+/* sidebar widget */
+#sidebar .widget ul, #sidebar .widget li {
+	border-color: #8f6f4f;
+}
+
+/* site logo */
+#site-logo a {
+	color: #fff;
+}

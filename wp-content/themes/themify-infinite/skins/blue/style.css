@@ -1,0 +1,15 @@
+/*  
+Skin Name: Blue
+Version: 1.0
+Description: Skin for Infinite
+*/
+
+#headerwrap,
+.sidemenu {
+	background-color: #0e88be;
+	color: #fff;
+}
+#headerwrap a,
+.sidemenu a {
+	color: #fff;
+}

@@ -1,0 +1,68 @@
+/*  
+Skin Name: Box
+Version: 1.0
+Description: Skin for Sidepane theme.
+*/
+
+body a {
+	color: #000;
+}
+body a:hover {
+	color: #66F;
+}
+
+input[type=reset], input[type=submit] {
+	background-color: #333;
+	color: #fff;
+}
+input[type=reset]:hover, input[type=submit]:hover {
+	background-color: #000;
+}
+
+/* main nav wrap */
+#main-nav-wrap {
+	border-color: #555;
+}
+
+/* sidebar */
+#sidebar-wrap {
+	background: none;
+	width: 347px;
+	float: left;
+}
+#sidebar {
+	box-shadow: inset 0 1px 0 rgba(255,255,255,.4), 0 1px 4px rgba(0,0,0,.4);
+	background-color: #333;
+	margin: 10px 0 10px 10px;
+	padding: 20px 20px 15px 20px;
+	color: #999;
+	border: solid 1px #000;
+	border-radius: 10px;
+}
+#sidebar input[type=text], #sidebar input[type=password], #sidebar textarea {
+	background-color: #666;
+	color: #fff;
+}
+#sidebar a {
+	color: #ccc;
+}
+#sidebar a:hover {
+	color: #fff;
+}
+#sidebar ul, #sidebar li {
+	border-color: #555;
+}
+.widget_search #s {
+	background-color: #ccc;
+}
+
+/* site logo */
+#site-logo a {
+	color: #fff;
+}
+
+/* footer-text */
+#footer-text {
+	left: 20px;
+	position: static;
+}

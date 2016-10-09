@@ -1,0 +1,38 @@
+/*  
+Skin Name: Black
+Version: 1.0
+Description: Skin for Metro
+*/
+
+/* default colors */
+#main-nav a,
+.tile.default,
+.tile-overlay,
+.portfolio #load-more a,
+.post,
+.widget,
+.sorting-nav li {
+	background-color: #000;
+	color: #FFF;
+}
+
+/* body */
+body {
+	background-color: #222;
+}
+
+/* main, filter navigation and form buttons */
+#main-nav .current_page_item a,
+#main-nav .current-menu-item a,
+.sorting-nav .active a,
+.sorting-nav .current-cat a,
+button, input[type=reset],
+input[type=submit] {
+	background-color: #FFF;
+	color: #000;
+}
+#main-nav .current_page_item ul a,
+#main-nav .current-menu-item ul a {
+	background-color: #000;
+	color: #FFF;
+}

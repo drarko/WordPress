@@ -1,0 +1,59 @@
+/*  
+Skin Name: Blue
+Version: 1.0
+Description: Skin for Tisa
+*/
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#headerwrap, #upperwrap {
+	background-image: url(images/upperwrap-bg.png);
+}
+
+#site-description {
+	color: #666;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+/* main level link :hover */
+#main-nav a:hover, #main-nav li:hover > a {
+	color: #630;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	color: #630;
+}
+/* current link :hover */
+#main-nav .current_page_item a:hover, #main-nav .current-menu-item a:hover {
+	color: #630;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footerwrap {
+	background-image: url(images/footer-bg.png);
+}
+
+#footer {
+	color: #444;
+}
+#footer a {
+	color: #630;
+}
+#footer h1,
+#footer h2,
+#footer h3,
+#footer h4,
+#footer h5,
+#footer h6 {
+	color: #333;
+}
+
+/* footer widget */
+#footer .widget li {
+	border-color: #aaa;
+}

@@ -1,0 +1,47 @@
+/*  
+Skin Name: Green
+Version: 1.0
+Description: Skin for Wumblr
+*/
+
+body {
+	background: #a2c386 url(images/body-bg.png);
+	color: #46553a;
+}
+a {
+	color: #000;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+}
+input[type=text], input[type=password], textarea {
+	background-color: #d3e2c6;
+	color: #333;
+}
+input[type=reset], input[type=submit] {
+	background-color: #61774f;
+}
+input[type=reset]:hover, input[type=submit]:hover {
+	background-color: #000;
+}
+
+/* site logo */
+#site-logo a {
+	color: #000;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+/* main level link */
+#main-nav a {
+	color: #3e4c33;
+}
+/* main level link :hover */
+#main-nav a:hover {
+	color: #fff;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #61774f;
+}

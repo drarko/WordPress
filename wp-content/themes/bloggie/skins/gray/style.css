@@ -1,0 +1,61 @@
+/*  
+Skin Name: Gray
+Version: 1.0
+Description: Skin for Bloggie theme.
+*/
+
+a {
+	color: #2c2c2c;
+}
+
+/* top bar */
+#topbar {
+	background-color: #3e3e3e;
+	color: #b3b3b3;
+}
+
+/* tpp bar */
+#topbar a {
+	color: #f2f2f2;
+}
+#topbar a:hover {
+	color: #fff;
+}
+
+/* nav bar */
+#nav-bar {
+	background-color: #3e3e3e;
+}
+
+/* main nav */
+#main-nav a {
+	color: #dbdbdb;
+}
+#main-nav a:hover {
+	color: #fff;
+}
+
+/* dropdown */
+#main-nav ul, #secondary-nav ul {
+	background-color: #3e3e3e;
+}
+#main-nav ul li a, #secondary-nav ul li a {
+	color: #dbdbdb;
+	border-color: #4a4a4a;
+}
+
+/* footer */
+#footer {
+	background-color: #3e3e3e;
+	color: #b3b3b3;
+}
+#footer a {
+	color: #f2f2f2;
+}
+#footer .widgettitle, #footer .widgettitle a {
+	color: #fff;
+	border-color: #4a4a4a;
+}
+#footer .widget li {
+	border-color: #4a4a4a;
+}

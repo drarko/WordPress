@@ -1,0 +1,21 @@
+/*  
+Skin Name: Magenta
+Version: 1.0
+Description: Skin for Metro
+*/
+
+/* default magenta color */
+#main-nav a,
+.tile.default,
+.tile-overlay,
+.portfolio #load-more a,
+.post,
+.widget,
+.sorting-nav li {
+	background-color: #ff3097;
+}
+
+/* body */
+body {
+	background-color: #9b0055;
+}

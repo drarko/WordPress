@@ -1,0 +1,91 @@
+/*  
+Skin Name: Orange
+Version: 1.0
+Description: Skin for Bold
+*/
+
+body {
+	color: #333;
+	background-color: #ffcfaf;
+}
+
+/* color reset */
+a {
+	color: #333;
+}
+#site-logo a,
+#site-description,
+#main-nav a {
+	color: #fff;
+}
+#main-nav a:hover,
+#main-nav li:hover > a,
+#main-nav .current_page_item a,
+#main-nav .current_page_item a:hover {
+	color: #672d06;
+}
+
+/* headerwrap and footerwrap */
+#headerwrap {
+	border-color: #903f08;
+}
+#footerwrap {
+	border-top: 1px solid #903f08;
+}
+
+#headerwrap,
+#footerwrap {
+	color: #fff;
+	background-color: #e4630d;
+}
+
+/* header */
+#site-description {
+	border-color: #ff761a;
+}
+
+#header #searchform #s {
+	background-color: #f3c09e;
+	background-color: rgba(255,255,255,.6);
+	color: #a9866e;
+}
+#header #searchform #s:focus {
+	color: #672d06;
+}
+
+/* footer */
+#footer,
+#footer a,
+.footer-text {
+	color: #fff;
+	color: rgba(255,255,255,.6);
+}
+
+/* form input and buttons */
+input[type=text],
+input[type=password],
+textarea,
+input[type=search],
+input[type=email] {
+	background-color: #e5bb9e;
+}
+input[type=reset]:hover,
+input[type=submit]:hover,
+button:hover {
+	color: #fff;
+	background-color: #444;
+}
+
+/* load more button and page navigation */
+#load-more a,
+.post-nav .arrow,
+.pagenav a {
+	background-color: #333;
+}
+
+/* horizontal rule and commentlist */
+hr,
+.commentlist,
+.commentlist .commententry {
+	border-color: #e5bb9e;
+}

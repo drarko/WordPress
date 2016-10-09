@@ -1,0 +1,108 @@
+/*  
+Skin Name: Orange
+Version: 1.0
+Description: Skin for Photobox.
+*/
+
+html {
+	background: #d5d0cd url(images/html-bg.png);
+}
+body {
+	background: url(images/body-bg.png) repeat-x;
+	color: #5f5858;
+}
+a {
+	color: #e75712;
+}
+input[type=text], input[type=password], textarea {
+	background-color: #514538;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #6f2c02;
+	text-shadow: 0 1px 1px rgba(0,0,0,.2);
+}
+
+/* site logo */
+#site-logo {
+	text-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+#site-logo a {
+	color: #6f2c02;
+}
+
+/* header widget */
+.header-widget  a {
+	color: #987a67;
+}
+.header-widget  a:hover {
+	color: #815337;
+}
+
+/* post title */
+.post-title a {
+	color: #6f2c02;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+/* main level link */
+#main-nav a {
+	color: #9a7259;
+	text-shadow: 0 1px 0 rgba(0,0,0,.1);
+}
+/* main level link :hover */
+#main-nav a:hover {
+	color: #6f2c02;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #514538;
+}
+
+/* next prev post */
+.next-prev-post em {
+	color: #666;
+}
+
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footerwrap {
+	background: url(images/footer-bg.png) repeat-x;
+}
+#footer {
+	color: #d8b19c;
+}
+#footer a {
+	color: #fdf8b7;
+}
+#footer h1,
+#footer h2,
+#footer h3,
+#footer h4,
+#footer h5,
+#footer h6
+{
+	color: #fff;
+}
+#footer .widget li {
+	border-color: #7f330d;
+}
+
+
+/************************************************************************************
+BORDER COLOR
+*************************************************************************************/
+#header,
+.welcome-message,
+.widget li,
+.pagenav,
+.next-prev-post,
+.commentlist,
+.commentlist .commententry
+{
+	border-color: #bbb5b1;
+}

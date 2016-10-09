@@ -1,0 +1,52 @@
+/*  
+Skin Name: Violet
+Version: 1.0
+Description: Skin for Sidepane.
+*/
+
+/* body link */
+a {
+	color: #613f86;
+}
+
+/* form element */
+input[type=reset], input[type=submit] {
+	background-color: #613f86;
+	color: #fff;
+}
+
+/* main nav wrap */
+#main-nav-wrap {
+	border-color: #8d72aa;
+}
+
+/* sidebar */
+#sidebar-wrap {
+	background: url(images/side-bg.png) repeat-y fixed;
+}
+#sidebar {
+	background: none;
+	color: #d6cce1;
+}
+#sidebar a {
+	color: #FFC;
+}
+#sidebar a:hover {
+	color: #fff;
+}
+
+/* sidebar form elements */
+#sidebar input[type=text], #sidebar input[type=password], #sidebar textarea {
+	background-color: #ad99c2;
+	color: #333;
+}
+
+/* sidebar widget */
+#sidebar .widget ul, #sidebar .widget li {
+	border-color: #8d72aa;
+}
+
+/* site logo */
+#site-logo a {
+	color: #fff;
+}

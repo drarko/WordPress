@@ -1,0 +1,16 @@
+.module {
+	position: relative;
+}
+.themify_builder_row.has-restriction:before,
+.module.has-restriction:before {
+	position: absolute;
+	content: "\f023" !important;
+	top: 2px;
+	left: 5px;
+	z-index: 1000;
+	font-family: FontAwesome;
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	display: block !important;
+}

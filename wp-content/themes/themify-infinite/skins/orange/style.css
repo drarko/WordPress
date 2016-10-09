@@ -1,0 +1,15 @@
+/*  
+Skin Name: Orange
+Version: 1.0
+Description: Skin for Infinite
+*/
+
+#headerwrap,
+.sidemenu {
+	background-color: #bf501c;
+	color: #fff;
+}
+#headerwrap a,
+.sidemenu a {
+	color: #fff;
+}

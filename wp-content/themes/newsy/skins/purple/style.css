@@ -1,0 +1,100 @@
+/*  
+Skin Name: Purple
+Version: 1.0
+Description: Skin for Newsy
+*/
+
+body {
+	color: #777;
+}
+a {
+	color: #6538b8;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #240d4f;
+}
+input[type=text], input[type=password], textarea {
+	background-color: #f5efff;
+	border-color: #d9d0e8;
+}
+input[type=reset], input[type=submit] {
+	background-color: #4f259e;
+}
+
+/************************************************************************************
+SLIDER
+*************************************************************************************/
+#header-slider .carousel-nav-wrap a,
+#footer-slider .carousel-nav-wrap a {
+	background-color: #b3acc0;
+}
+#header-slider .carousel-nav-wrap a:hover,
+#footer-slider .carousel-nav-wrap a:hover {
+	background-color: #4f259e;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+#nav-bar {
+	background-color: #4f259e;
+	border-top-color: #511f75;
+	border-bottom-color: #7245df;
+}
+/* main level link */
+#main-nav a {
+	color: #dcd3ec;
+}
+/* main level link :hover */
+#main-nav a:hover {
+	color: #fff;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #33136f;
+}
+
+/************************************************************************************
+CONTENT
+*************************************************************************************/
+/* post title */
+.post-title, .post-title a {
+	color: #240d4f;
+}
+
+/* more link */
+.more-link {
+	background-color: #000;
+	color: #fff;
+}
+
+/* page nav */
+.pagenav .number {
+	background-color: #333;
+	color: #fff;
+}
+.pagenav .number:hover {
+	background-color: #000;
+}
+.pagenav .current, .pagenav .current:hover {
+	background-color: #fff;
+	color: #666;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footerwrap {
+	background-color: #4f259e;
+}
+#footer {
+	color: #dcd3ec;
+}
+#footer a {
+	color: #fcf8c7;
+}
+
+/* footer widget */
+#footer .widget li {
+	border-color: #391878;
+}

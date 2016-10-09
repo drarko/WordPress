@@ -1,0 +1,276 @@
+/************************************************************************************
+GENERAL
+*************************************************************************************/
+body {
+	text-align: right;
+}
+blockquote:before {
+	content: '\201D';
+	margin-right: -0.5em;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+/* Menu */
+#main-nav {
+	margin-left: 1.6em;
+}
+#main-nav ul  a {
+	padding-right: 30px;
+}
+
+/* Social Widget */
+#searchform-wrap,
+.social-widget {
+	float: left;
+	margin: 0;
+}
+#headerwrap #searchform-wrap + .social-widget {
+	margin-left: 40px;
+	margin-right: 0;
+	margin-top: 4px;
+}
+
+/* Searchform */
+#headerwrap #searchform {
+	right: auto;
+	left: 0;
+}
+#headerwrap #searchform .icon-search:before {
+	right: auto;
+	left: 10px;
+}
+
+.sidemenu {
+	right: auto;
+	left: 0;
+}
+
+/************************************************************************************
+POST
+*************************************************************************************/
+.post-meta span {
+	margin-right: 0;
+	margin-left: 0.6em;
+}
+.post-date {
+	margin-right: 0;
+	margin-left: 1.5em;
+}
+.post-date:before,
+.post-tag:before,
+.post-comment:before {
+	margin-right: 0;
+	margin-left: 10px;
+}
+
+/*
+GALLERY POST
+================================================ */
+.loops-wrapper.gallery .post-meta,
+.loops-wrapper.gallery .post-meta .post-date {
+	text-align: inherit;
+}
+
+/*
+EVENT POST
+================================================ */
+/* Event List Post */
+.loops-wrapper.list-post.event .post-image {
+	float: right;
+	margin-right: 0;
+	margin-left: 1.4em;
+}
+.loops-wrapper.list-post .post-content,
+.loops-wrapper.list-post.event .post-content {
+	text-align: inherit;
+}
+.loops-wrapper.list-post.event .event-cta-wrapper {
+	right: auto;
+	left: 0;
+}
+/* Event Grid Post */
+.loops-wrapper.grid2.event .post .post-content,
+.loops-wrapper.grid3.event .post .post-content,
+.loops-wrapper.grid4.event .post .post-content {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+/*
+PRESS POST
+================================================ */
+.post-meta {
+	float: right;
+	margin-right: 0;
+	margin-left: 5%;
+}
+.loops-wrapper.press .post-image {
+	float: right;
+}
+.loops-wrapper.grid2 .post-content {
+	padding-left: 0;
+	padding-right: 140px;
+}
+.loops-wrapper.grid2.press .post-image + .post-meta {
+	margin-left: 4%;
+	margin-right: -70px;
+}
+
+/*
+ALBUM POST
+================================================ */
+.loops-wrapper.album .post-title {
+	width: auto;
+	float: right;
+}
+.loops-wrapper.list-post .record-details {
+	float: left;
+	text-align: left;
+}
+.loops-wrapper.list-post .record-details li {
+	text-align: right;
+	margin-right: auto;
+	margin-left: 40px;
+}
+
+/*
+POST SHARE
+================================================ */
+.post-share {
+	float: right;
+}
+.buy-button {
+	float: right;
+}
+.loops-wrapper.grid3 .post .post-share {
+	width: auto;
+}
+
+/*
+MUSIC PLAYER
+================================================ */
+#footer-player .post-image {
+	left: 163px;
+}
+#footer-player .footer-player-inner .tracklist .wp-playlist .mejs-controls .mejs-time-rail {
+	direction: rtl;
+}
+#footer-player .footer-player-inner .tracklist .wp-playlist .mejs-controls .mejs-playpause-button button {
+	left: 24px;
+}
+#footer-player .footer-player-inner .tracklist .wp-playlist .wp-playlist-current-item {
+	text-align: right;
+	left: 0px !important;
+	right: 20px;
+	margin-right: 5%;
+}
+.wp-playlist-caption {
+	max-width: none;
+}
+.buttons-console-wrap {
+	margin-right: 2%;
+}
+
+/*
+COMMENT FORM
+================================================ */
+#commentform input[type=text] {
+	margin-left: 5px;
+	margin-right: auto;
+}
+
+/************************************************************************************
+POST NAVIGATION
+*************************************************************************************/
+/* post navigation */
+.post-nav .prev {
+	text-align: left;
+}
+
+/************************************************************************************
+WIDGET STYLES
+*************************************************************************************/
+/* feature-posts-list */
+.widget .feature-posts-list .post-img {
+    float: right;
+    margin-left: 1.2em;
+    margin-right: 0;
+}
+
+/************************************************************************************
+PROGRESS BAR
+*************************************************************************************/
+.progress-bar {
+	text-align: right;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+@media screen and (max-width: 1000px) {
+
+	/* search */
+	#searchform-wrap,
+	.social-widget {
+		float: none;
+	}
+
+	/* menu */
+	#headerwrap #menu-icon {
+		right: auto;
+		left: 0;
+	}
+	#headerwrap #main-nav {
+		text-align: right;
+	}
+	#headerwrap #main-nav ul {
+		padding-left: 0;
+		}
+	#headerwrap #main-nav ul a {
+		text-align: right;
+		padding-right: 1em;
+	}
+	.rtl.sidemenu-active {
+		left: 0;
+	}
+
+}
+
+@media screen and (max-width: 760px) {
+
+	.single-post.sidebar-none .post-nav,
+	.single-portfolio.sidebar-none .post-nav {
+		padding: 0;
+	}
+	
+	.loops-wrapper.list-post .post-title {
+		text-align: inherit;
+	}
+	.widget .event-widget .event-cta-wrapper,
+	.widget .event-widget .post-share {
+		float: right;
+	}
+
+}
+
+@media screen and (max-width: 680px) {
+
+	.post-meta {
+		margin-left: 1%;
+	}
+	.loops-wrapper.grid2.press .post-image {
+		float: right;
+	}
+	.loops-wrapper.grid2.press .post-image + .post-meta {
+		margin-left: 0;
+	}
+	#footer-player .footer-player-inner .tracklist .wp-playlist {
+		left: 0;
+	}
+	#footer-player .footer-player-inner .tracklist .wp-playlist .wp-playlist-current-item {
+		margin-right: 13%;
+	}
+
+}

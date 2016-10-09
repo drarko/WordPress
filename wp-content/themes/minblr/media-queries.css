@@ -1,0 +1,364 @@
+@media screen and (max-width: 980px) {
+
+	/************************************************************************************
+	STRUCTURE
+	*************************************************************************************/
+	#pagewrap {
+		max-width: 100%;
+	}
+	
+	/* reset grid to percentage */
+	#content .col,
+	#content .col4-1,
+	#content .col4-2,
+	#content .col4-3,
+	#content .col3-1,
+	#content .col3-2,
+	#content .col2-1
+	{
+		margin-left: 0;
+	}
+	#content .col4-1 {
+		width: 25%;
+	}
+	#content .col4-2, #content .col2-1 {
+		width: 50%;
+	}
+	#content .col4-3 {
+		width: 75%;
+	}
+	#content .col3-1 {
+		width: 33%;
+	}
+	#content .col3-2 {
+		width: 66%;
+	}
+	.pagewidth {
+		padding-left: 0;
+		width: 92%;
+	}
+	.post-icon {
+		width: 38px;
+		height: 38px;
+		margin-right: 10px;
+		margin-left: -2px;
+		margin-top: 2px;
+		margin-bottom: 5px;
+		position: static;
+		float: left;
+	}
+	.post-title {
+		font-size: 160%;
+		margin: 0 0 3px;
+	}
+	.post-date {
+		width: auto;
+		text-align: left;
+		font-size: 90%;
+		position: static;
+		margin: 0 0 1px;
+	}
+	.post-meta {
+		clear: both;
+	}
+	/* back to top */
+	#footer .back-top a {
+		display: block;
+		position: static;
+		float: left;
+		margin: 0 12px 5px 0;
+		clear: left;
+	}
+	#footer .footer-text-wrap {
+		float: left;
+		clear: none;
+		margin-top: 5px;
+		padding-bottom: 20px;
+	}
+	#footer-nav {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	/* reset absolute elements to static */
+	#header .social-widget,
+	#headerwrap #site-logo,
+	#headerwrap #site-description,
+	#headerwrap #main-nav  {
+		position: static;
+		float: none;
+		clear: both;
+	}
+	/* header */
+	#header {
+		height: auto !important;
+	}
+	#header .social-widget {
+		padding: 5px 0 30px;
+	}
+	#header #searchform {
+		padding: 10px 0;
+		position: absolute;
+		top: -10px;
+		right: 0;
+		z-index: 103;
+	}
+	#header #searchform input#s {
+		width: 50px;
+		text-align: right;
+	}
+	#header #searchform input#s:focus {
+		width: 150px;
+	}
+	#site-logo {
+		margin: 15px 100px 10px 0;
+	}
+	#site-logo a {
+		font-size: 30px;
+	}
+	#site-description {
+		margin: 0 0 10px;
+	}
+	/* main nav */
+	#headerwrap #main-nav {
+		height: auto;
+		margin: 10px 0;
+	}
+	#headerwrap #main-nav a {
+		padding: 4px 9px;
+		font-size: 11px;
+	}
+	/* welcome message */
+	.welcome-message {
+		margin: 0 0 20px;
+	}
+	/* fullwidth post */
+	#contentwrap.fullwidth-post .post-meta {
+		width: auto;
+		position: static;
+		margin-right: 0;
+	}
+	#contentwrap.fullwidth-post .post-meta span {
+		display: inline;
+		border-top: none;
+		background-position: 2px center;
+		padding-left: 20px;
+		box-shadow: none;
+	}
+	.sidebar1 #content {
+		width: 100%;
+		max-width: 100%;
+		float: none;
+	}
+	/* commentlist */
+	.commentlist ul {
+		margin-left: 20px;
+	}
+	.next-prev-comment {
+		position: static;
+		margin: 0 0 5px;
+	}
+	.commententry {
+		clear: both;
+	}
+	/* sidebar */
+	#sidebar {
+		width: 100%;
+		max-width: 100%;
+		float: none;
+		clear: both;
+		border-top: solid 1px #ddd;
+		padding-top: 20px;
+		-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,.7);
+	}
+	/* footer */
+	#footer .col4-1, #footer .col4-3, #footer .col3-2, #footer .col3-1, #footer .col2-1 {
+		float: none;
+		width: auto;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 680px) {
+
+	/* disable webkit text size adjust (for iPhone) */
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+	/************************************************************************************
+	GRID
+	*************************************************************************************/
+	.col4-1,
+	.col4-2, .col2-1,
+	.col4-3,
+	.col3-1,
+	.col3-2	 {
+		margin-left: 0 !important;
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+
+	/************************************************************************************
+	LAYOUT
+	*************************************************************************************/
+	/* post */
+	.post {
+		width: auto !important;
+		max-width: 100% !important;
+		margin-left: 0 !important;
+		float: none !important;
+	}
+	
+	/* grid2 post */
+	.loops-wrapper.grid2 .post {
+		margin-left: 0;
+		width: 100%;
+		float: none;
+	}
+	
+	/************************************************************************************
+	MOBILE NAV BUTTON
+	*************************************************************************************/
+	.mobile-button {
+		position: relative;
+		width: 32px;
+		height: 30px;
+		margin-bottom: 3px;
+		margin-right: 3px;
+		display: block;
+		float: right;
+		cursor: pointer;
+		background-color: #eee;
+		border-radius: 5px;
+	}
+	.mobile-button:before {
+		content: "\f0c9";
+		font: normal 21px/1em FontAwesome;
+		color: #000;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -.5em 0 0 -.5em;
+		width: 1em;
+		height: 1em;
+		text-align: center;
+	}
+	.mobile-button.active:before {
+		color: #555;
+	}
+
+	/************************************************************************************
+	MAIN NAV (MOBILE)
+	*************************************************************************************/
+	#main-nav-wrap {
+		position: absolute;
+		top: 2px;
+		right: 0;
+		z-index: 1000;
+	}
+	
+	/* main nav */
+	#headerwrap #main-nav {
+		clear: both;
+		position: static;
+		width: 160px;
+		z-index: 1000;
+		padding: 10px 5px;
+		background-color: #fff;
+		border: solid 1px #999;
+		display: none; /* visibility will be toggled with jquery */
+		box-shadow: 1px 2px 0 rgba(0,0,0,.2);
+		border-radius: 5px;
+	}
+	#headerwrap #main-nav li {
+		clear: both;
+		float: none;
+		margin: 5px 0 5px 10px;
+		padding: 0;
+		border: none;
+		box-shadow: none;
+	}
+	#headerwrap #main-nav a, 
+	#headerwrap #main-nav ul a {
+		font: inherit;
+		text-transform: inherit;
+		background: none;
+		width: auto;
+		display: inline;
+		padding: 0;
+		color: #666;
+		border: none;
+		text-shadow: none;
+		box-shadow: none;
+	}
+	#headerwrap #main-nav a:hover, 
+	#headerwrap #main-nav ul a:hover {
+		background: none;
+		color: #000;
+	}
+	
+	/* dropdown */
+	#headerwrap #main-nav ul {
+		position: static;
+		display: block;
+		margin: 0;
+		padding: 0;
+		background: none;
+		border: none;
+		border-radius: 0;
+		box-shadow: none;
+	}
+	
+	/************************************************************************************
+	SEARCH FORM
+	*************************************************************************************/
+	#searchform-wrap {
+		position: absolute;
+		top: 2px;
+		right: 40px;
+		z-index: 1000;
+	}
+	#search-icon:before {
+		content: "\f002";
+		font-size: 19px;
+	}
+	
+	#header #searchform {
+		clear: both;
+		width: auto;
+		position: static;
+		overflow: hidden;
+		background-color: #fff;
+		border: solid 1px #999;
+		padding: 5px;
+		display: none; /* visibility will be toggled with jquery */
+		border-radius: 5px;
+		box-shadow: 0 1px 2px rgba(0,0,0,.3);
+	}
+	#header #searchform #s {
+		background-color: #ddd !important;
+		color: #444 !important;
+		padding-left: 8px;
+	}
+	
+	/************************************************************************************
+	WOOCOMMERCE SUPPORT
+	*************************************************************************************/
+	.woocommerce #content div.product div.images,
+	.woocommerce #content div.product div.summary {
+		float: none !important;
+		width: 100% !important;
+	}
+}
+
+@media screen and (min-width: 681px) {
+
+	/* ensure #nav and #searchform is visible on desktop version */
+	#main-nav,
+	#headerwrap #searchform {
+		display: block !important;
+	}
+
+}

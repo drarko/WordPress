@@ -1,0 +1,189 @@
+/*  
+Skin Name: Black
+Version: 1.0
+Description: Skin for ThemeMin theme.
+*/
+
+body {
+	background-color: #000;
+	color: #888;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #ccc;
+}
+a {
+	color: #ccc;
+}
+a:hover {
+	color: #fff;
+}
+input[type=text], input[type=password], textarea {
+	border: solid 1px #333;
+	background-color: #444;
+	color: #999;
+}
+textarea:focus, input[type=password]:focus, input[type=text]:focus {
+	border: solid 1px #666;
+	color: #fff;
+}
+input[type=reset], input[type=submit] {
+	background-color: #222;
+	color: #ccc;
+}
+input[type=reset]:hover, input[type=submit]:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+/* header */
+#header {
+	border-color: #444;
+}
+#site-logo a {
+	color: #ccc;
+}
+#site-logo a:hover {
+	color: #fff;
+}
+#site-description {
+	color: #666;
+}
+/* main nav */
+#main-nav a {
+	color: #999;
+}
+#main-nav a:hover {
+	color: #fff;
+}
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	color: #fff;
+	border-color: #333;
+}
+#main-nav .current_page_item a:hover, #main-nav .current-menu-item a:hover {
+	color: #fff;
+}
+
+/* slider */
+#header-slider, #footer-slider {
+	border-color: #333;
+}
+.slides h3 a {
+	color: #666;
+}
+.slides h3 a:hover, .slides li:hover h3 a {
+	color: #fff;
+}
+.slider-nav {
+	border-top: solid 1px #222;
+	color: #333;
+}
+.slider-nav a {
+	color: #999;
+}
+.slider-nav a:hover {
+	color: #fff;
+}
+.slider-nav a span {
+	color: #ccc;
+}
+
+/* content */
+
+/* post title */
+.post-title, .post-title a {
+	color: #ccc;
+}
+.post-title a:hover {
+	color: #fff;
+}
+
+/* post date wrap */
+.post-date-wrap .post-comment {
+	border-color: #333;
+}
+.post-date-wrap .post-comment a {
+	color: #ccc;
+}
+.post-date-wrap .post-comment a:hover {
+	color: #fff;
+}
+.list-post .post-date {
+	color: #999;
+}
+.list-post .post-date .year {
+	color: #777;
+}
+/* post meta bottom */
+.post-meta {
+	color: #999;
+	border-color: #222;
+}
+.post-meta em {
+	color: #999;
+}
+.post-meta a {
+	color: #666;
+}
+.post-meta a:hover {
+	color: #fff;
+}
+
+/* next prev post */
+.post-nav {
+	border-color: #333;
+}
+.post-nav span em {
+	color: #999;
+}
+.post-nav a {
+	color: #666;
+}
+.post-nav a:hover {
+	color: #fff;
+}
+.post-nav span.arrow {
+	color: #999;
+}
+
+/* section category */
+.category-section-title {
+	border-color: #333;
+}
+
+/* comments */
+.commentwrap {
+	border-color: #333;
+}
+.commentlist {
+	border-color: #333;
+}
+.commentlist .comment-time {
+	color: #555;
+}
+.commentlist .commententry {
+	border-color: #222;
+}
+.commentlist #cancel-comment-reply-link {
+	color: #999;
+}
+.commentlist #cancel-comment-reply-link:hover {
+	color: #fff;
+}
+#respond #cancel-comment-reply-link:hover {
+	color: #fff;
+}
+
+/* sidebar */
+.widgettitle {
+	border-color: #333;
+	color: #ccc;
+}
+.widget li, .widget ul ul li {
+	border-color: #222;
+}
+
+/* footer */
+#footer {
+	border-color: #444;
+}
+

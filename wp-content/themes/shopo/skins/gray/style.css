@@ -1,0 +1,25 @@
+/*  
+Skin Name: Gray
+Version: 1.0
+Description: Skin for Shopo
+*/
+
+a {
+	color: #000;
+}
+
+/* nav bar and footerwrap*/
+#nav-bar, #footerwrap, .welcome-message {
+	background-color: #868686;
+	border-color: #6e6b6b;
+}
+
+/* footer */
+#footer {
+	color: #dbdbdb;
+}
+#footer .widget li {
+	border-color: #727272;
+}
+
+

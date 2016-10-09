@@ -1,0 +1,125 @@
+/*  
+Skin Name: Papryus
+Version: 1.0
+Description: Skin for Edmin.
+*/
+
+body {
+	background: #e1e1d1 url(images/html-bg.jpg);
+	color: 666;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #7b5b3a;
+	text-shadow: 0 1px 0 rgba(255,255,255,.6);
+}
+a {
+	color: #8f7510;
+}
+
+/* header */
+#header {
+	border-bottom: solid 1px #000;
+	box-shadow: 0 1px 0 rgba(255,255,255,.6);
+}
+
+/* site logo */
+#site-logo a {
+	color: #696262;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.9);
+}
+
+/* slide a:hover */
+.slides h3 a:hover, .slides li:hover h3 a {
+	color: #8f7510;
+}
+
+
+/* post title */
+.post-title a {
+	color: #603913;
+	text-shadow: 0 1px 0 rgba(0,0,0,.7);
+}
+
+/* post meta */
+.post-meta a {
+	color: #8f7510;
+}
+.post-meta a:hover {
+	color: #000;
+}
+
+/* next prev post */
+.next-prev-post {
+	border-top: solid 1px #a9a99d;
+	box-shadow: 0 -1px 0 rgba(255,255,255,.1);
+}
+.next-prev-post em {
+	background-color: #b39625;
+	color: #fff;
+}
+.next-prev-post a:hover {
+	color: #000;
+}
+
+/* main level link */
+#main-nav a {
+	color: #8f7510;
+}
+/* main level link :hover */
+#main-nav a:hover {
+	color: #000;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #a11c22;
+	color: #fff;
+}
+/* current link :hover */
+#main-nav .current_page_item a:hover, #main-nav .current-menu-item a:hover {
+	color: #fff;
+}
+/* sub-levels link :hover */
+#main-nav ul a:hover, #main-nav .current_page_item ul a:hover, #main-nav ul .current_page_item a:hover, #main-nav .current-menu-item ul a:hover, #main-nav ul .current-menu-item a:hover {
+	background-color: #ededed;
+	color: #000;
+}
+
+
+/* commentlist */
+.commentwrap {
+	border: none;
+}
+.commentlist .comment-reply-link {
+	color: #ccc;
+}
+
+/* pagenav */
+.pagenav .number {
+	background-color: #8f7510;
+	color: #fff;
+}
+.pagenav .current, .pagenav .current:hover {
+	background-color: #fff;
+	color: #666;
+	border: none;
+}
+
+/* border styles */
+#header-slider, 
+.widgettitle
+{
+	border-color: #a9a99d;
+}
+
+.widget li, 
+.commentlist .commententry,
+.post-meta 
+{
+	border-color: #c0c0b2;
+}
+
+#footer, .pagenav,
+.commentlist
+{
+	border-color: #a9a99d;
+}

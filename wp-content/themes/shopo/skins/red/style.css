@@ -1,0 +1,23 @@
+/*  
+Skin Name: Red
+Version: 1.0
+Description: Skin for Shopo
+*/
+
+a {
+	color: #ac383c;
+}
+
+/* nav bar and footerwrap*/
+#nav-bar, #footerwrap, .welcome-message {
+	background-color: #d5444a;
+	border-color: #ac383c;
+}
+
+/* footer */
+#footer {
+	color: #f2c7c9;
+}
+#footer .widget li {
+	border-color: #b53a3f;
+}

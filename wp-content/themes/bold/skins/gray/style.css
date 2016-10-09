@@ -1,0 +1,78 @@
+/*  
+Skin Name: Gray
+Version: 1.0
+Description: Skin for Bold
+*/
+
+body {
+	color: #333;
+	background-color: #eee;
+}
+
+/* color reset */
+a {
+	color: #222;
+}
+#site-logo a,
+#site-description,
+#main-nav a {
+	color: #fff;
+}
+#main-nav a:hover,
+#main-nav li:hover > a,
+#main-nav .current_page_item a,
+#main-nav .current_page_item a:hover {
+	color: #444;
+}
+
+/* headerwrap and footerwrap */
+#headerwrap {
+	border-color: #777;
+}
+#footerwrap {
+	border-top: 1px solid #777;
+}
+
+#headerwrap,
+#footerwrap {
+	color: #fff;
+	background-color: #a3a3a3;
+}
+
+/* header */
+#site-description {
+	border-color: #ccc;
+}
+
+#header #searchform #s {
+	background-color: #d9d9d9;
+	background-color: rgba(255,255,255,.6);
+	color: #979797;
+}
+#header #searchform #s:focus {
+	color: #444;
+}
+
+/* footer */
+#footer,
+#footer a,
+.footer-text {
+	color: #fff;
+	color: rgba(255,255,255,.8);
+}
+
+/* form input and buttons */
+input[type=text],
+input[type=password],
+textarea,
+input[type=search],
+input[type=email] {
+	background-color: #ddd;
+}
+textarea:focus,
+input[type=password]:focus,
+input[type=text]:focus,
+input[type=search]:focus,
+input[type=email]:focus {
+	background-color: #fff;
+}

@@ -1,0 +1,47 @@
+/*  
+Skin Name: Pink
+Version: 1.0
+Description: Skin for Wumblr
+*/
+
+body {
+	background: #f5ccd8 url(images/body-bg.png);
+	color: #65595d;
+}
+a {
+	color: #501325;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+}
+input[type=text], input[type=password], textarea {
+	background-color: #e0b0bf;
+	color: #333;
+}
+input[type=reset], input[type=submit] {
+	background-color: #5e3a46;
+}
+input[type=reset]:hover, input[type=submit]:hover {
+	background-color: #000;
+}
+
+/* site logo */
+#site-logo a {
+	color: #371620;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+/* main level link */
+#main-nav a {
+	color: #764e5a;
+}
+/* main level link :hover */
+#main-nav a:hover {
+	color: #000;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #9e7b86;
+}

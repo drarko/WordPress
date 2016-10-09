@@ -1,0 +1,77 @@
+/*  
+Skin Name: Min White
+Version: 1.0
+Description: Skin for Edmin.
+*/
+
+body {
+	background-color: #fff;
+	color: 666;
+}
+a {
+	color: #000;
+}
+
+input[type=text], input[type=password], textarea {
+	background-color: #f8f8f8;
+	color: #666;
+}
+textarea:focus, input[type=password]:focus, input[type=text]:focus {
+	border: solid 1px #999;
+	color: #fff;
+}
+input[type=reset], input[type=submit] {
+	background-color: #000;
+	color: #fff;
+	border: none;
+	font-variant: small-caps;
+	box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+/* slide a:hover */
+.slides h3 a:hover, .slides li:hover h3 a {
+	color: #000;
+}
+
+/* next prev post */
+.next-prev-post em {
+	background-color: #000;
+	color: #fff;
+}
+.next-prev-post a:hover {
+	color: #000;
+}
+
+/* main level link */
+#main-nav a {
+	color: #666;
+}
+/* main level link :hover */
+#main-nav a:hover {
+	color: #000;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #000;
+	color: #fff;
+	border-color: #000;
+}
+/* current link :hover */
+#main-nav .current_page_item a:hover, #main-nav .current-menu-item a:hover {
+	color: #fff;
+}
+/* sub-levels link :hover */
+#main-nav ul a:hover, #main-nav .current_page_item ul a:hover, #main-nav ul .current_page_item a:hover, #main-nav .current-menu-item ul a:hover, #main-nav ul .current-menu-item a:hover {
+	background-color: #ededed;
+	color: #000;
+}
+
+/* pagenav */
+.pagenav .number {
+	background-color: #666;
+	color: #fff;
+}
+.pagenav .current, .pagenav .current:hover {
+	background-color: #fff;
+	color: #666;
+}

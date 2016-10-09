@@ -1,0 +1,78 @@
+/*  
+Skin Name: Blue
+Version: 1.0
+Description: Skin for Folo
+*/
+
+body {
+	background-color: #e7ecf0;
+}
+a {
+	color: #0072bc;
+}
+
+/* form */
+input[type=text], input[type=password], textarea, input[type=search] {
+	background-color: #e1e6e9;
+	border-color: #bdc1c5;
+}
+input[type=reset], input[type=submit] {
+	background-color: #0072bc;
+	border-color: #0566a5;
+}
+input[type=reset]:hover, input[type=submit]:hover {
+	background-color: #0b67a2;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#headerwrap {
+	background-color: #d6dfe5;
+	border-top-color: #000;
+	border-bottom-color: #a8b8c2;
+}
+
+/* logo wrap */
+.logo-wrap {
+	background-color: #0072bc;
+	border-color: #045386;
+}
+
+/************************************************************************************
+POST
+*************************************************************************************/
+/* more link */
+.more-link {
+	background-color: #0072bc;
+}
+.more-link:hover {
+	background-color: #0b67a2;
+}
+
+/************************************************************************************
+COMMENTS
+*************************************************************************************/
+.commentlist .comment-reply-link {
+	background-color: #0072bc;
+	border-color: #0566a5;
+}
+.commentlist .comment-reply-link:hover {
+	background-color: #0b67a2;
+}
+
+/* cancel reply link */
+#respond #cancel-comment-reply-link {
+	background-color: #0072bc;
+	border-color: #0566a5;
+}
+#respond #cancel-comment-reply-link:hover {
+	background-color: #0b67a2;
+}
+
+/************************************************************************************
+Footer
+*************************************************************************************/
+#footerwrap {
+	background-color: #cfd6dc;
+}

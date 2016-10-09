@@ -1,0 +1,106 @@
+/*  
+Skin Name: Gray
+Version: 1.0
+Description: Skin for Folo
+*/
+
+body {
+	background-color: #ececec;
+	color: #666;
+}
+a {
+	color: #333;
+}
+
+/* form */
+input[type=text], input[type=password], textarea, input[type=search] {
+	background-color: #f1f1f1;
+	border-color: #bbb;
+}
+input[type=reset], input[type=submit] {
+	background-color: #555;
+	border-color: #444;
+}
+input[type=reset]:hover, input[type=submit]:hover {
+	background-color: #444;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#headerwrap {
+	background-color: #f4f4f4;
+	border-top-color: #333;
+	border-bottom-color: #999;
+}
+
+/* logo wrap */
+.logo-wrap {
+	background-color: #666;
+	border-color: #444;
+}
+
+/************************************************************************************
+UPPER WRAP
+*************************************************************************************/
+#upperwrap {
+	background-color: #cfcfcf;
+}
+
+/************************************************************************************
+POST
+*************************************************************************************/
+.post-title, .post-title a {
+	color: #000;
+}
+
+/* more link */
+.more-link {
+	background-color: #555;
+}
+.more-link:hover {
+	background-color: #444;
+}
+
+/* post meta */
+.post-meta a {
+	color: #333;
+}
+
+/************************************************************************************
+COMMENTS
+*************************************************************************************/
+.commentlist .comment-reply-link {
+	background-color: #555;
+	border-color: #444;
+}
+.commentlist .comment-reply-link:hover {
+	background-color: #444;
+}
+
+/* cancel reply link */
+#respond #cancel-comment-reply-link {
+	background-color: #555;
+	border-color: #444;
+}
+#respond #cancel-comment-reply-link:hover {
+	background-color: #444;
+}
+
+/************************************************************************************
+Footer
+*************************************************************************************/
+#footer-logo a {
+	color: #000;
+}
+#footerwrap {
+	background-color: #d5d5d5;
+}
+
+/* border color */
+.home-highlights,
+.welcome-message,
+.home-widgets,
+.footer-nav {
+	border-color: #aaa;
+}

@@ -1,0 +1,192 @@
+/*  
+Skin Name: Chocolate
+Version: 1.0
+Description: Skin for ThemeMin theme.
+*/
+
+body {
+	background-color: #3e301c;
+	color: #b9a588;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #b9a588;
+}
+a {
+	color: #b08630;
+}
+a:hover {
+	color: #e1ab39;
+}
+input[type=text], input[type=password], textarea {
+	border: solid 1px #564a3b;
+	background-color: #655949;
+	color: #ccc;
+}
+textarea:focus, input[type=password]:focus, input[type=text]:focus {
+	border: solid 1px #857661;
+	color: #fff;
+}
+input[type=reset], input[type=submit] {
+	background-color: #703506;
+	color: #fff;
+}
+input[type=reset]:hover, input[type=submit]:hover {
+	background-color: #a0410d;
+	color: #fff;
+}
+
+/* header */
+#header {
+	border-color: #786f61;
+}
+#site-logo a {
+	color: #dacdb6;
+}
+#site-logo a:hover {
+	color: #e1ab39;
+}
+#site-description {
+	color: #9f8e75;
+}
+/* main nav */
+#main-nav a {
+	color: #736654;
+}
+#main-nav a:hover {
+	color: #e1ab39;
+}
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	color: #e1ab39;
+	border-color: #524533;
+}
+#main-nav .current_page_item a:hover, #main-nav .current-menu-item a:hover {
+	color: #e1ab39;
+}
+
+/* slider */
+#header-slider, #footer-slider {
+	border-color: #786f61;
+}
+.slides h3 a {
+	color: #736654;
+}
+.slides h3 a:hover, .slides li:hover h3 a {
+	color: #e1ab39;
+}
+.slider-nav {
+	border-color: #524533;
+	color: #524533;
+}
+.slider-nav a {
+	color: #736654;
+}
+.slider-nav a:hover {
+	color: #e1ab39;
+}
+.slider-nav a span {
+	color: #dacdb6;
+}
+
+/* content */
+
+/* post title */
+.post-title, .post-title a {
+	color: #dacdb6;
+}
+.post-title a:hover {
+	color: #e1ab39;
+}
+
+/* post date wrap */
+.post-date-wrap .post-comment {
+	border-color: #524533;
+}
+.post-date-wrap .post-comment a {
+	color: #dacdb6;
+}
+.post-date-wrap .post-comment a:hover {
+	color: #e1ab39;
+}
+.list-post .post-date {
+	color: #b9a588;
+}
+.list-post .post-date .year {
+	color: #b9a588;
+}
+/* post meta bottom */
+.post-meta {
+	color: #b9a588;
+	border-color: #524533;
+}
+.post-meta em {
+	color: #dacdb6;
+}
+.post-meta a {
+	color: #b9a588;
+}
+.post-meta a:hover {
+	color: #e1ab39;
+}
+
+/* next prev post */
+.post-nav {
+	border-color: #524533;
+}
+.post-nav span em {
+	color: #dacdb6;
+}
+.post-nav a {
+	color: #b9a588;
+}
+.post-nav a:hover {
+	color: #e1ab39;
+}
+.post-nav span.arrow {
+	color: #dacdb6;
+}
+
+/* section category */
+.category-section-title {
+	border-color: #655949;
+}
+
+/* comments */
+.commentwrap {
+	border-color: #655949;
+}
+.commentlist {
+	border-color: #655949;
+}
+.commentlist .comment-time {
+	color: #786f61;
+}
+.commentlist .commententry {
+	border-color: #524533;
+}
+.commentlist #cancel-comment-reply-link {
+	color: #736654;
+}
+.commentlist #cancel-comment-reply-link:hover {
+	color: #e1ab39;
+}
+#respond #cancel-comment-reply-link {
+	color: #736654;
+}
+#respond #cancel-comment-reply-link:hover {
+	color: #e1ab39;
+}
+
+/* sidebar */
+.widgettitle {
+	border-color: #655949;
+	color: #b9a588;
+}
+.widget li, .widget ul ul li {
+	border-color: #524533;
+}
+
+/* footer */
+#footer {
+	border-color: #786f61;
+}
+

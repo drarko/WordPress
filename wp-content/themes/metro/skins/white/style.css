@@ -1,0 +1,126 @@
+/*  
+Skin Name: White
+Version: 1.0
+Description: Skin for Metro
+*/
+
+/* reset colors */
+#main-nav a,
+.tile.default,
+.default.tile-overlay,
+.default.tile-overlay a,
+.post.default .tile-overlay,
+.shortcode.portfolio.default .post,
+.post.default,
+.widget,
+.sorting-nav li {
+	background-color: #FFF;
+	color: #666;
+}
+.default .post-title a,
+.default .post-meta,
+.default .post-meta a,
+.default .post-date, 
+.default .shortcode .post-date,
+.default .portfolio-post .post-category a,
+.tile.default .shortcode.twitter-list .twitter-timestamp a,
+.widget .feature-posts-list small,
+.default .commentlist .comment-time {
+	color: #000;
+	color: rgba(0, 0, 0, .8);
+}
+#main-nav a,
+.default.post a,
+.tile.default a,
+.widget a,
+.default .post-nav a,
+.portfolio #load-more a,
+.sorting-nav li a {
+	color: #000;
+}
+#main-nav a:hover,
+#main-nav ul a,
+#main-nav,
+.single-portfolio .carousel-pager a,
+.sorting-nav a:hover,
+.sorting-nav .active a, .sorting-nav .current-cat a {
+	color: #FFF;
+}
+#main-nav .current_page_item a,
+#main-nav .current-menu-item a {
+	background-color: #FFF;
+	color: #000;
+}
+#main-nav .current_page_item a:hover,
+#main-nav .current-menu-item a:hover,
+#main-nav .current_page_item ul a,
+#main-nav .current-menu-item ul a {
+	background-color: #000;
+	color: #FFF;
+}
+
+
+/* post icons */
+.default .post-icon {
+	background-image: url(../../images/dark-icons/icon-article.png);
+}
+.default.format-audio .post-icon  {
+	background-image: url(../../images/dark-icons/icon-audio.png);
+}
+.default.format-gallery .post-icon {
+	background-image: url(../../images/dark-icons/icon-gallery.png);
+}
+.default.format-link .post-icon {
+	background-image: url(../../images/dark-icons/icon-link.png);
+}
+.default.format-quote .post-icon {
+	background-image: url(../../images/dark-icons/icon-quote.png);
+}
+.default.format-status .post-icon {
+	background-image: url(../../images/dark-icons/icon-status.png);
+}
+.default.format-aside .post-icon {
+	background-image: url(../../images/dark-icons/icon-text.png);
+}
+.default.format-video .post-icon {
+	background-image: url(../../images/dark-icons/icon-video.png);
+}
+.default.format-image .post-icon {
+	background-image: url(../../images/dark-icons/icon-image.png);
+}
+.default.format-chat .post-icon {
+	background-image: url(../../images/dark-icons/icon-chat.png);
+}
+
+
+/* post navigation */
+.default .post-nav .arrow {
+	background: url(../../images/dark-icons/arrow-left.png) 
+}
+.default .post-nav .next .arrow {
+	background-image: url(../../images/dark-icons/arrow-right.png);
+}
+
+/* form elements */
+.default input[type="text"],
+.default input[type="password"],
+.default textarea,
+.default input[type="search"],
+.widget input[type="text"],
+.widget input[type="password"],
+.widget textarea,
+.widget input[type="search"] {
+	background-color: #000;
+	color: #FFF;
+}
+
+.default input[type=text]:focus,
+.default input[type=password]:focus,
+.default textarea:focus,
+.default input[type=search]:focus,
+.widget input[type=text]:focus,
+.widget input[type=password]:focus,
+.widget textarea:focus,
+.widget input[type=search]:focus {
+	background-color: #222;
+}

@@ -1,0 +1,21 @@
+/*  
+Skin Name: Pink
+Version: 1.0
+Description: Skin for Metro
+*/
+
+/* default pink color */
+#main-nav a,
+.tile.default,
+.tile-overlay,
+.portfolio #load-more a,
+.post,
+.widget,
+.sorting-nav li {
+	background-color: #e878b8;
+}
+
+/* body */
+body {
+	background-color: #a02367;
+}

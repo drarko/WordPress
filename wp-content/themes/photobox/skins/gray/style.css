@@ -1,0 +1,128 @@
+/*  
+Skin Name: Gray
+Version: 1.0
+Description: Skin for Photobox.
+*/
+
+html {
+	background: #ebebeb url(images/html-bg.png);
+}
+body {
+	background: url(images/body-bg.png) repeat-x;
+	color: #767b85;
+}
+a {
+	color: #000;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+input[type=text], input[type=password], textarea {
+	background-color: #b1b2b5;
+	color: #eee;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+	text-shadow: 0 1px 1px rgba(0,0,0,.2);
+}
+
+/* site logo */
+#site-logo {
+	text-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+#site-logo a {
+	color: #4c5255;
+}
+
+/* header widget */
+.header-widget  a {
+	color: #666;
+}
+.header-widget  a:hover {
+	color: #333;
+}
+
+/* post title */
+.post-title a {
+	color: #000;
+}
+
+/* post meta */
+.post-meta a {
+	text-decoration: none;
+}
+.post-meta a:hover {
+	text-decoration: underline;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+/* main level link */
+#main-nav a {
+	color: #6a6f72;
+	text-shadow: 0 1px 0 rgba(0,0,0,.1);
+}
+/* main level link :hover */
+#main-nav a:hover {
+	color: #000;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #b1b2b5;
+}
+
+/* next prev post */
+.next-prev-post em {
+	color: #666;
+}
+
+/* widget li a */
+.widget li a {
+	text-decoration: none;
+}
+.widget li a:hover {
+	text-decoration: underline;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footerwrap {
+	background: url(images/footer-bg.png) repeat-x;
+}
+#footer {
+	color: #b2b1b1;
+}
+#footer a {
+	color: #fff;
+}
+#footer h1,
+#footer h2,
+#footer h3,
+#footer h4,
+#footer h5,
+#footer h6
+{
+	color: #fff;
+}
+#footer .widget li {
+	border-color: #333;
+}
+
+/************************************************************************************
+BORDER COLOR
+*************************************************************************************/
+#header,
+.welcome-message,
+.widget li,
+.pagenav,
+.next-prev-post,
+.commentlist,
+.commentlist .commententry
+{
+	border-color: #a4a5a6;
+}
+

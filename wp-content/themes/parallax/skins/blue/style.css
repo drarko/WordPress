@@ -1,0 +1,99 @@
+/*
+Skin Name: Blue
+Version: 1.0
+Description: Skin for Parallax
+*/
+
+/* links */
+a,
+.post-nav .arrow,
+.widget a {
+	color: #15a3c6;
+}
+
+/* buttons */
+input[type=reset],
+input[type=submit],
+button,
+.pagenav .current,
+#load-more a {
+	background-color: #15a3c6;
+	border-color: #138fad;
+	color: #fff;
+}
+input[type=reset]:hover,
+input[type=submit]:hover,
+button:hover,
+.pagenav a:hover,
+#load-more a:hover {
+	background-color: #19b8e0;
+}
+
+textarea:focus, input[type=text]:focus, input[type=password]:focus, input[type=search]:focus, input[type=email]:focus, input[type=url]:focus {
+	border-color: #15a3c6;
+}
+
+/* headerwrap, nav-bar and footerwrap */
+#headerwrap,
+#nav-bar,
+#nav-bar.fixed-nav-bar,
+#footerwrap {
+	background-color: #fff;
+}
+#main-nav ul {
+	background-color: #fff;
+}
+#nav-bar {
+	background-color: rgba(21,163,198,.7);
+}
+
+/* main navigation */
+#main-nav a,
+#main-nav ul a {
+	color: #fff;
+}
+#main-nav a:hover,
+#main-nav li:hover > a,
+#main-nav .current_page_item a,
+#main-nav .current-menu-item a,
+#main-nav .current_page_item a:hover,
+#main-nav .current-menu-item a:hover {
+	color: #333;
+}
+
+#main-nav ul:before,
+.home .fixed-nav-bar #main-nav ul:before {
+	border-bottom-color: rgba(0,0,0,0.5);
+}
+#main-nav ul ul:before,
+.home #main-nav ul ul:before,
+.home .fixed-nav-bar #main-nav ul ul:before {
+	border-right-color: rgba(0,0,0,0.5);
+}
+.home #main-nav ul:before {
+	border-top-color: rgba(0,0,0,0.5);
+}
+
+/* back-top and footer widget list border */
+.back-top,
+#footer .widget li {
+	border-color: #128eaa;
+}
+
+/* footer */
+#footer {
+	color: #fff;
+}
+.back-top a:before,
+#footer a {
+	color: #fff;
+}
+#footer a:hover {
+	color: #333;
+}
+
+@media screen and (max-width:1000px) {
+	#mobile-menu {
+		background-color: #15a3c6;
+	}
+}

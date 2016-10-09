@@ -1,0 +1,66 @@
+/*
+Skin Name: White
+Version: 1.0
+Description: Skin for Split
+
+*/
+
+#footerwrap,
+.back-top a,
+.pagenav a:hover,
+.pagenav .current {
+	background-color: #eee;
+	color: #000;
+}
+#headerwrap {
+	background-color: rgba(238,238,238,.8);
+	color: #000;
+}
+a,
+#headerwrap a,
+#footerwrap a {
+	color: #000;
+}
+input[type=reset],
+input[type=submit],
+button,
+.commentlist .comment-reply-link {
+	color: #000;
+	background-color: #eee;
+}
+.commentlist .comment-reply-link:hover {
+	color: #fff;
+	background-color: #000;
+}
+.woocommerce #content input.button,.woocommerce #respond input#submit,.woocommerce a.button,.woocommerce button.button,.woocommerce input.button,.woocommerce-page #content input.button,.woocommerce-page #respond input#submit,.woocommerce-page a.button,.woocommerce-page button.button,.woocommerce-page input.button,.woocommerce #content input.button.alt,.woocommerce #respond input#submit.alt,.woocommerce a.button.alt,.woocommerce button.button.alt,.woocommerce input.button.alt,.woocommerce-page #content input.button.alt,.woocommerce-page #respond input#submit.alt,.woocommerce-page a.button.alt,.woocommerce-page button.button.alt,.woocommerce-page input.button.alt,
+.woocommerce #content nav.woocommerce-pagination ul li a:focus,.woocommerce #content nav.woocommerce-pagination ul li a:hover,.woocommerce #content nav.woocommerce-pagination ul li span.current,.woocommerce nav.woocommerce-pagination ul li a:focus,.woocommerce nav.woocommerce-pagination ul li a:hover,.woocommerce nav.woocommerce-pagination ul li span.current,.woocommerce-page #content nav.woocommerce-pagination ul li a:focus,.woocommerce-page #content nav.woocommerce-pagination ul li a:hover,.woocommerce-page #content nav.woocommerce-pagination ul li span.current,.woocommerce-page nav.woocommerce-pagination ul li a:focus,.woocommerce-page nav.woocommerce-pagination ul li a:hover,.woocommerce-page nav.woocommerce-pagination ul li span.current,
+.woocommerce span.onsale, .woocommerce-page span.onsale, .woocommerce ul.products li.product .onsale, .woocommerce-page ul.products li.product .onsale {
+	background-color: #ccc;
+	color: #000;
+}
+#footerwrap .back-top:hover a {
+	color: #fff;
+}
+.split-left,
+.split-right,
+.split-loader,
+.hidden-view {
+	background-color: #eee;
+}
+@media screen and (max-width: 1000px) {
+	.sidemenu {
+		background-color: #e7e7e7;
+		color: #666;
+	}
+	#headerwrap #main-nav a, 
+	#headerwrap #main-nav ul a,
+	#headerwrap #mobile-menu-panel a {
+		color: #333;
+	}
+	#header #main-nav a:hover,
+	#header #main-nav ul a:hover,
+	#headerwrap #main-nav .current_page_item > a, 
+	#headerwrap #main-nav .current-menu-item > a {
+		color: #000;
+	}	
+}

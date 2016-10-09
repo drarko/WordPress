@@ -1,0 +1,193 @@
+/*  
+Skin Name: Aqua
+Version: 1.0
+Description: Skin for ThemeMin theme.
+*/
+
+body {
+	background-color: #bce7e3;
+	color: #483f32;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #2b251d;
+}
+a {
+	color: #703506;
+}
+a:hover {
+	color: #a0410d;
+}
+input[type=text], input[type=password], textarea {
+	border: solid 1px #a7d0cc;
+	background-color: #fff;
+	color: #666;
+}
+textarea:focus, input[type=password]:focus, input[type=text]:focus {
+	border: solid 1px #79a4a0;
+	color: #000;
+}
+input[type=reset], input[type=submit] {
+	background-color: #703506;
+	color: #fff;
+}
+input[type=reset]:hover, input[type=submit]:hover {
+	background-color: #a0410d;
+	color: #fff;
+}
+
+/* header */
+#header {
+	border-color: #7b938b;
+}
+#site-logo a {
+	color: #703506;
+}
+#site-logo a:hover {
+	color: #a0410d;
+}
+#site-description {
+	color: #666;
+}
+/* main nav */
+#main-nav a {
+	color: #666;
+}
+#main-nav a:hover {
+	color: #a0410d;
+}
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	color: #000;
+	border-color: #afcbc1;
+}
+#main-nav .current_page_item a:hover, #main-nav .current-menu-item a:hover {
+	color: #000;
+}
+
+/* slider */
+#header-slider, #footer-slider {
+	border-color: #7b938b;
+}
+.slides h3 a {
+	color: #666;
+}
+.slides h3 a:hover, .slides li:hover h3 a {
+	color: #a0410d;
+}
+.slider-nav {
+	border-color: #afcbc1;
+	color: #666;
+}
+.slider-nav a {
+	color: #666;
+}
+.slider-nav a:hover {
+	color: #703506;
+}
+.slider-nav a span {
+	color: #703506;
+}
+
+/* content */
+
+/* post title */
+.post-title, .post-title a {
+	color: #2b251d;
+}
+.post-title a:hover {
+	color: #a0410d;
+}
+
+/* post date wrap */
+.post-date-wrap .post-comment {
+	border-color: #afcbc1;
+}
+.post-date-wrap .post-comment a {
+	color: #666;
+}
+.post-date-wrap .post-comment a:hover {
+	color: #a0410d;
+}
+.list-post .post-date {
+	color: #483f32;
+}
+.list-post .post-date .year {
+	color: #483f32;
+}
+
+/* post meta bottom */
+.post-meta {
+	border-color: #afcbc1;
+	color: #666;
+}
+.post-meta em {
+	color: #333;
+}
+.post-meta a {
+	color: #666;
+}
+.post-meta a:hover {
+	color: #a0410d;
+}
+
+/* next prev post */
+.post-nav {
+	border-color: #9bb1a9;
+}
+.post-nav span em {
+	color: #444;
+}
+.post-nav a {
+	color: #666;
+}
+.post-nav a:hover {
+	color: #a0410d;
+}
+.post-nav span.arrow {
+	color: #703506;
+}
+
+/* section category */
+.category-section-title {
+	border-color: #9bb1a9;
+}
+
+/* comments */
+.commentwrap {
+	border-color: #9bb1a9;
+}
+.commentlist {
+	border-color: #9bb1a9;
+}
+.commentlist .comment-time {
+	color: #666;
+}
+.commentlist .commententry {
+	border-color: #afcbc1;
+}
+.commentlist #cancel-comment-reply-link {
+	color: #666;
+}
+.commentlist #cancel-comment-reply-link:hover {
+	color: #a0410d;
+}
+#respond #cancel-comment-reply-link {
+	color: #666;
+}
+#respond #cancel-comment-reply-link:hover {
+	color: #a0410d;
+}
+
+/* sidebar */
+.widgettitle {
+	border-color: #9bb1a9;
+	color: #2b251d;
+}
+.widget li, .widget ul ul li {
+	border-color: #afcbc1;
+}
+
+/* footer */
+#footer {
+	border-color: #7b938b;
+}
+

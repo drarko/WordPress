@@ -1,0 +1,86 @@
+/*  
+Skin Name: Pink
+Version: 1.0
+Description: Skin for Folo
+*/
+
+body {
+	background-color: #fcf5f9;
+	color: #656264;
+}
+a {
+	color: #de58a7;
+}
+
+/* form */
+input[type=text], input[type=password], textarea, input[type=search] {
+	background-color: #f5eef2;
+	border-color: #cfc9cc;
+}
+input[type=reset], input[type=submit] {
+	background-color: #e10060;
+	border-color: #b70852;
+}
+input[type=reset]:hover, input[type=submit]:hover {
+	background-color: #be0454;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#headerwrap {
+	background-color: #f3dce9;
+	border-top-color: #c487aa;
+	border-bottom-color: #dbc0d0;
+}
+
+/* logo wrap */
+.logo-wrap {
+	background-color: #e10060;
+	border-color: #b70852;
+}
+
+/************************************************************************************
+UPPER WRAP
+*************************************************************************************/
+#upperwrap {
+	background-color: #fef0f8;
+}
+
+/************************************************************************************
+POST
+*************************************************************************************/
+/* more link */
+.more-link {
+	background-color: #e10060;
+}
+.more-link:hover {
+	background-color: #be0454;
+}
+
+/************************************************************************************
+COMMENTS
+*************************************************************************************/
+.commentlist .comment-reply-link {
+	background-color: #e10060;
+	border-color: #b70852;
+}
+.commentlist .comment-reply-link:hover {
+	background-color: #be0454;
+}
+
+/* cancel reply link */
+#respond #cancel-comment-reply-link {
+	background-color: #e10060;
+	border-color: #b70852;
+}
+#respond #cancel-comment-reply-link:hover {
+	background-color: #be0454;
+}
+
+/************************************************************************************
+Footer
+*************************************************************************************/
+#footerwrap {
+	background-color: #f3dce9;
+}

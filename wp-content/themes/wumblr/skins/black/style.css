@@ -1,0 +1,47 @@
+/*  
+Skin Name: Black
+Version: 1.0
+Description: Skin for Wumblr
+*/
+
+body {
+	background: #111 url(images/body-bg.png);
+	color: #999;
+}
+a {
+	color: #f5f3db;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #fff;
+}
+input[type=text], input[type=password], textarea {
+	background-color: #666;
+	color: #fff;
+}
+input[type=reset], input[type=submit] {
+	background-color: #000;
+}
+input[type=reset]:hover, input[type=submit]:hover {
+	background-color: #000;
+}
+
+/* site logo */
+#site-logo a {
+	color: #fff;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+/* main level link */
+#main-nav a {
+	color: #999;
+}
+/* main level link :hover */
+#main-nav a:hover {
+	color: #fff;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #000;
+}

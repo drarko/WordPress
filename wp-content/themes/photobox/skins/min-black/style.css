@@ -1,0 +1,144 @@
+/*  
+Skin Name: Min Black
+Version: 1.0
+Description: Skin for Photobox.
+*/
+
+html {
+	background-color: #333;
+}
+body {
+	background-color: #333;
+	color: #aaa;
+}
+a {
+	color: #fff;
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;
+}
+input[type=text], input[type=password], textarea {
+	background-color: #222;
+	color: #444;
+	box-shadow: none;
+}
+textarea:focus, input[type=password]:focus, input[type=text]:focus {
+	color: #fff;
+}
+input[type=reset], input[type=submit] {
+	background-color: #222;
+}
+input[type=reset]:hover, input[type=submit]:hover {
+	background-color: #000;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	color: #ccc;
+	text-shadow: 0 1px 1px rgba(0,0,0,.2);
+}
+
+/* site logo */
+#site-logo {
+	text-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+#site-logo a {
+	color: #fff;
+}
+
+/* header widget */
+.header-widget  a {
+	color: #ccc;
+}
+.header-widget  a:hover {
+	color: #fff;
+}
+
+/* post title */
+.post-title a {
+	color: #fff;
+}
+
+/* post meta */
+.post-meta a {
+	text-decoration: none;
+}
+.post-meta a:hover {
+	text-decoration: underline;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+/* main level link */
+#main-nav a {
+	color: #ccc;
+	text-shadow: 0 1px 0 rgba(0,0,0,.1);
+}
+/* main level link :hover */
+#main-nav a:hover {
+	color: #fff;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #000;
+	color: #fff;
+	box-shadow: none;
+}
+/* current link :hover */
+#main-nav .current_page_item a:hover, #main-nav .current-menu-item a:hover {
+	color: #fff;
+}
+
+/* next prev post */
+.next-prev-post em {
+	color: #999;
+}
+
+/* widget li a */
+.widget li a {
+	text-decoration: none;
+}
+.widget li a:hover {
+	text-decoration: underline;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footerwrap {
+	background-color: #000;
+}
+#footer {
+	color: #999;
+}
+#footer a {
+	color: #fff;
+}
+#footer h1,
+#footer h2,
+#footer h3,
+#footer h4,
+#footer h5,
+#footer h6
+{
+	color: #ccc;
+}
+#footer .widget li {
+	border-color: #222;
+}
+
+/************************************************************************************
+BORDER COLOR
+*************************************************************************************/
+#header,
+.welcome-message,
+.widget li,
+.pagenav,
+.next-prev-post,
+.commentlist,
+.commentlist .commententry
+{
+	border-color: #333;
+}

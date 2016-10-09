@@ -1,0 +1,77 @@
+/*  
+Skin Name: Brown
+Version: 1.0
+Description: Skin for Rezo
+*/
+
+body {
+	background: #d95110 url(images/html-bg.png);
+}
+#pagewrap {
+	background: url(images/body-bg.png) repeat-x;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #782b07;
+}
+input[type=reset], input[type=submit] {
+	background-color: #782b07;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+#nav-bar {
+	background: url(images/nav-bg.png) no-repeat left bottom;
+}
+/* main level link */
+#main-nav a {
+	color: #e8d8ce;
+}
+/* main level link :hover */
+#main-nav a:hover {
+	color: #fff;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #391f14;
+}
+
+/* social widget */
+.social-widget {
+	color: #e8d8ce;
+}
+
+/* post title */
+.post-title a {
+	color: #782b07;
+}
+
+/* page nav */
+.pagenav .number {
+	background-color: #333;
+	color: #fff;
+}
+.pagenav .number:hover {
+	background-color: #000;
+}
+.pagenav .current, .pagenav .current:hover {
+	background-color: #fff;
+	color: #666;
+}
+
+
+/************************************************************************************
+MENU
+*************************************************************************************/
+.menu-title {
+	background: url(images/menu-title-bg.png) no-repeat top center;
+	color: #fff;
+}
+
+/* footer text */
+.footer-text {
+	color: #ccc;
+}
+.footer-text a {
+	color: #fff;
+}

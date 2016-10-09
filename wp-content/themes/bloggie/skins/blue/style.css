@@ -1,0 +1,61 @@
+/*  
+Skin Name: Blue
+Version: 1.0
+Description: Skin for Bloggie theme.
+*/
+
+a {
+	color: #1189b5;
+}
+
+/* top bar */
+#topbar {
+	background-color: #174656;
+	color: #bdd0d7;
+}
+
+/* tpp bar */
+#topbar a {
+	color: #fffbce;
+}
+#topbar a:hover {
+	color: #fff;
+}
+
+/* nav bar */
+#nav-bar {
+	background-color: #174656;
+}
+
+/* main nav */
+#main-nav a {
+	color: #e0f7ff;
+}
+#main-nav a:hover {
+	color: #fff;
+}
+
+/* dropdown */
+#main-nav ul, #secondary-nav ul {
+	background-color: #103e4f;
+}
+#main-nav ul li a, #secondary-nav ul li a {
+	color: #e0f7ff;
+	border-color: #164f64;
+}
+
+/* footer */
+#footer {
+	background-color: #103e4f;
+	color: #bdd0d7;
+}
+#footer a {
+	color: #fffbce;
+}
+#footer .widgettitle, #footer .widgettitle a {
+	color: #fff;
+	border-color: #164f64;
+}
+#footer .widget li {
+	border-color: #164f64;
+}

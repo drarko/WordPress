@@ -1,0 +1,52 @@
+/*  
+Skin Name: Orange
+Version: 1.0
+Description: Skin for Sidepane.
+*/
+
+/* body link */
+a {
+	color: #cd660f;
+}
+
+/* form element */
+input[type=reset], input[type=submit] {
+	background-color: #cd660f;
+	color: #fff;
+}
+
+/* main nav wrap */
+#main-nav-wrap {
+	border-color: #e79d5e;
+}
+
+/* sidebar */
+#sidebar-wrap {
+	background: url(images/side-bg.png) repeat-y fixed;
+}
+#sidebar {
+	background: none;
+	color: #f3cfb0;
+}
+#sidebar a {
+	color: #FFC;
+}
+#sidebar a:hover {
+	color: #fff;
+}
+
+/* sidebar form elements */
+#sidebar input[type=text], #sidebar input[type=password], #sidebar textarea {
+	background-color: #ebb385;
+	color: #333;
+}
+
+/* sidebar widget */
+#sidebar .widget ul, #sidebar .widget li {
+	border-color: #e79d5e;
+}
+
+/* site logo */
+#site-logo a {
+	color: #fff;
+}

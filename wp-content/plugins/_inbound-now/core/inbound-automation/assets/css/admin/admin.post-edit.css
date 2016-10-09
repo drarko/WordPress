@@ -1,0 +1,531 @@
+
+/* Navigation */
+.nav-hide {
+	display:none;
+}
+
+.updated a {
+    display:none;
+}
+
+.nav-reveal {
+	display:block;
+}
+
+.navlink {
+	text-decoration:none;
+}
+
+/* Triggers */
+.table-trigger-container {
+	width:100%;
+}
+
+.table-trigger-container .td-trigger-select{
+	width:144px;
+	padding-right:20px;
+}
+
+.td-trigger-select-dropdown {
+	//padding:20px;
+}
+
+.trigger-container .label-big {
+	color:darkslategrey;
+	padding-left:24px;
+	font-size:20px;
+}
+
+.table-trigger-container .td-trigger-select {
+	vertical-align:top;
+}
+
+.trigger-container .section-header {
+	width: 100%;
+	height: 50px;
+	line-height: 60px;
+	color: #999;
+	font-weight: 700;
+	font-size: 16px;
+	background: #fff;
+	display: block;
+	padding: 0 50px 0 30px;
+}
+
+/* Trigger Fiters Table */
+.td-filter-key {
+	max-width: 341px;
+}
+
+/* Filters */
+.table-filter {
+	width:100%;
+}
+
+
+.table-filter select {
+	font-size:12px;
+}
+
+.trigger-filters a {
+	text-decoration:none;
+	cursor:pointer;
+}
+
+.tr-filter-select .btn-group {
+	float:right;
+	margin-bottom: 14px;
+}
+
+.trigger-filter-evaluate {
+	margin-top:30px;
+	margin-bottom:-23px;
+	display:inline;
+}
+
+.trigger-filter-evaluate .btn-group-evaluate {
+	position: relative;
+	float: right;
+	top: -33px;
+	right: 0px;
+}
+
+.trigger-filter-evaluate .add-filter {
+	position: relative;
+	float: right;
+	top: 0px;
+	right: -286px;
+}
+
+.add-filter {
+	display:inline;
+	float:right;
+}
+
+.trigger-filter-evaluate  .btn-group {
+
+}
+
+.label-evaluate {
+	padding-left:7px;
+}
+
+.delete-filter {
+	cursor:pointer;
+}
+
+/* Actions */
+.action-block-filters-container .delete-filter {
+	margin-top:-2px;
+}
+
+.action-block-filter-evaluate {
+    display: inline;
+    position:absolute;
+    float: right;
+    top: 5px;
+    right: 49px;
+} 
+
+.dropdown-add-filters {
+    float: right;
+    top: -1px;
+    text-align: right;
+    position: absolute;
+    right: -6px;
+}
+
+.dropdown-add-actions {
+    float: right;
+    top: -49px;
+    text-align: right;
+    right: -17px;
+    position: relative;
+}
+
+.dropdown-add-filters .dropdown-menu, .dropdown-add-actions .dropdown-menu, {
+    position: relative !important;
+    margin-top: 28px !important;
+    margin-right: -46px !important;
+}
+
+.add-action-filters .fa-plus-circle,
+.action-block-actions .fa-plus-circle, .action-block-actions .fa-plus-circle{
+    color: white;
+    cursor: pointer;
+    font-size: 23px; 
+    margin-right: 35px;
+    margin-top: 13px;
+}
+.action-block-actions .fa-plus-circle, .action-block-actions .fa-plus-circle{
+    margin-top: 6px;
+}
+ 
+
+.add-action-filter {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.42857143;
+    color: #333;
+    white-space: nowrap;
+    cursor:pointer;
+}
+
+
+.add-action {
+    cursor:pointer;
+}
+
+.action-filter-option:hover{
+    color: #262626;
+    text-decoration: none;
+    background-color: #f5f5f5;
+}
+
+
+.td-filter-type {
+    width:20%;
+}
+
+.actions-container .action-block-wrapper .action-block {
+	margin-top:0px;
+	padding-top:10px;
+	margin-bottom:10px;
+	margin-left:auto;
+	padding-right:0px;
+	padding-left:11px;
+	width:auto;
+}
+
+.action-block-separator {
+	color: #ccc;
+	margin-top:21px;
+	margin-bottom:21px;
+}
+
+.handle {
+	cursor:move;
+}
+
+.action-block-fieldset fieldset  /*, .actions-container fieldset*/ {
+	display: block;
+	-webkit-margin-start: 2px;
+	-webkit-margin-end: 2px;
+	-webkit-padding-before: 0.35em;
+	-webkit-padding-start: 0.75em;
+	-webkit-padding-end: 0.75em;
+	-webkit-padding-after: 0.625em;
+	border-color: #ccc;
+	border: 2px groove ;
+	border-image-source: initial;
+	border-image-slice: initial;
+	border-image-width: initial;
+	border-image-outset: initial;
+	border-image-repeat: initial;
+	min-width: -webkit-min-content;
+}
+
+.actions-container .add-actions {
+	width:96%;
+}
+
+
+.actions-container .action-sub-wrapper .action-container {
+	margin-top:0px;
+	padding-top:10px;
+	margin-bottom:20px;
+	margin-left:auto;
+	padding-right:0px;
+	padding-left:30px;
+	width:auto;
+}
+
+.add-action-block {
+	cursor: pointer;
+}
+
+.postbox .hndle {
+    font-size: 14px !important;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    font-weight: bold;
+    color: #555;
+}
+
+.table-action {
+	width:100%;
+}
+
+.action-sub-wrapper{
+	position: relative;
+}
+
+.td-filter-value, .td-filter-value input {
+	width:100%;
+}
+
+.action-buttons {
+	width:100%;
+	text-align:right;
+	position:absolute;
+	margin-bottom:10px;
+	top:3px;
+	right:10px;
+}
+
+.action-buttons span {
+    margin-left:10px;
+    cursor:pointer;
+    color:#a9a9a9;
+}
+
+.action-buttons .up-action-order {
+    font-size:10px;
+    vertical-align:text-bottom;
+}
+.action-buttons .down-action-order {
+    font-size:10px;
+    vertical-align:sub;
+}
+
+
+.action-buttons .delete-action {
+    vertical-align:-webkit-baseline-middle;
+}
+
+.action-filter-delete {
+	display:inline;
+}
+
+
+.action-block-delete .delete-action-block , .action-delete , .action-filter-delete .delete-filter {
+	padding: 0px 3px;
+	float: right;
+}
+
+.delete-action-block .fa-times, .fa-times , .delete-filter .fa-times {
+	top: 0px;
+	position: relative;
+}
+
+
+.td-filter-delete {
+	text-align:right;
+	padding:0px;
+	vertical-align:top;
+}
+
+.td-filter-delete .btn-mini,
+.action-filter-delete .delete-filter{
+    padding: 6px 12px 6px 12px;
+    float: right;
+    line-height: 1px;
+    margin-top: 3px;
+    border-radius: 0px;
+    border: 0;
+    color: #555;
+}
+
+.fa-times {
+	font-size:10px;
+}
+
+.filter-container{
+	position: relative;
+}
+
+.action-block .filter-container div{
+	width: auto;
+}
+
+
+.td-action-setting-label {
+	width:200px;
+    
+    font-size: 12px;
+}
+
+.action-filter-key {
+    width: 220px;
+}
+
+/**
+* Action block actions
+*/
+.hide-field {
+	display:none;
+}
+
+.table-action .select2-container {
+	min-width:350px;
+}
+
+/**
+ * LOGS
+ */
+.clear-logs-container {
+    text-align:right;
+}
+
+.tr-trigger-select #trigger-dropdown {
+    line-height: 47px !important;
+    height: 45px !important;
+    font-size: 16px !important;
+    padding-left:20px;
+	padding-right:20px;
+	cursor:pointer;
+}
+
+.tr-trigger-select #trigger-dropdown .lt {
+	margin-bottom:5px;
+	text-align:center;
+}
+
+.trigger-section-header {
+	font-size: 20px;
+	position: relative;
+	color: #fff;
+	background: #428bca;
+ }
+
+.tr-trigger-select td, tr-filter-select td {
+	padding-bottom:40px;
+	padding-top:10px;
+}
+
+.action-block-section-header {
+	font-size: 20px;
+	position: relative;
+	padding: 10px 10px 10px 30px;
+	margin: 10px 0;
+	color: #fff;
+	background: #428bca;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-right-radius: 5px; 
+}
+
+.action-block-then-actions-container , .action-block-else-actions-container {
+	padding-left:20px;
+	padding-bottom:20px;
+}
+
+.action-block-filter-evaluate .btn-group {
+	margin-top:1px;
+    margin-right: 15px;
+}
+
+.inside .dropdown-menu {
+	right: 0;
+	left:auto !important;
+}
+
+.td-log-entry-content h2 {
+	font-weight:600 !important;
+}
+.td-log-entry-content p,.td-log-entry-content pre {
+	margin-left:12px !important;
+}
+
+
+/* UI Improvement Style by Ahmed Kaludi - START */
+.trigger-section-header, .action-block-section-header{
+    border-radius: 3px;
+    margin-bottom: 10px !important;
+    padding: 13px 15px !important;
+    letter-spacing: 0.2px;
+}
+.tr-filter-select .btn-group-evaluate{
+    margin-top: -16px;
+    margin-right: 5px;
+}
+.tr-filter-select .btn-default.active,
+.action-block-wrapper .btn-default.active{
+    background: #2F6796;
+    color: #EFEFEF; 
+    border-color: #2E6798;
+}
+.tr-filter-select .btn .caret{
+    margin-left: 5px;
+}
+.ladda-button .ladda-spinner{
+    top: 4% !important;
+}
+.td-filter-delete .fa-times {
+    font-size: 14px;
+}
+.tr-filter-select select{
+    height: 30px
+}
+.td-filter-value input{
+    padding-bottom: 4px
+}
+#poststuff .inside{
+    margin: 6px 0 20px 0
+}
+.action-filter-options{
+    right: 14px !important;
+}
+.action-block-wrapper #action-block-filters, .action-block-actions{
+    margin-top: 20px;
+}
+#action-block-filters {
+    margin-bottom: 60px
+}
+.action-block-actions{
+    margin-bottom: 40px;
+}
+.action-block-then-actions-container .action-sub-wrapper,
+.action-block-else-actions-container .action-sub-wrapper{
+    margin-bottom: 25px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 25px;
+}
+.action-block-then-actions-container .action-sub-wrapper h4,
+.action-block-else-actions-container .action-sub-wrapper h4{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px !important;
+}
+.action-sub-wrapper .action-buttons .up-action-order .fa,
+.action-sub-wrapper .action-buttons .down-action-order .fa,
+.action-sub-wrapper .action-buttons .delete-action .fa{
+    font-size: 16px;
+    vertical-align: middle
+}
+.action-sub-wrapper .action-buttons .delete-action {
+    line-height: 0px;
+}
+.action-sub-wrapper .action-buttons .delete-action .fa{
+    margin-top: -5px;
+}
+.action-block-then-actions-container .action-sub-wrapper h4{
+    margin: 0;
+}
+.action-block-then-actions-container .action-sub-wrapper:first-child,
+.action-block-else-actions-container .action-sub-wrapper:first-child{
+    margin-top: 30px
+}
+.action-block-then-actions-container .action-sub-wrapper tr{
+    margin-bottom: 4px    
+}
+.action-block-then-actions-container .action-sub-wrapper tr i,
+.action-block-else-actions-container .action-sub-wrapper tr i{
+    font-size: 11px;
+}
+.action-block-then-actions-container{
+    padding-bottom: 0px
+}
+.action-block-actions:last-child{
+    margin-bottom: 0px;
+}
+#titlediv #title-prompt-text{
+    color: #333;
+    position: absolute;
+    font-size: 16px;
+    padding: 11px 10px;
+    font-weight: normal;
+}
+/* UI Improvement Style by Ahmed Kaludi - END */

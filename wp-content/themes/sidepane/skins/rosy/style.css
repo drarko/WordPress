@@ -1,0 +1,52 @@
+/*  
+Skin Name: Rosy
+Version: 1.0
+Description: Skin for Sidepane.
+*/
+
+/* body link */
+a {
+	color: #b44648;
+}
+
+/* form element */
+input[type=reset], input[type=submit] {
+	background-color: #b44648;
+	color: #fff;
+}
+
+/* main nav wrap */
+#main-nav-wrap {
+	border-color: #c76f71;
+}
+
+/* sidebar */
+#sidebar-wrap {
+	background: url(images/side-bg.png) repeat-y fixed;
+}
+#sidebar {
+	background: none;
+	color: #eac9ca;
+}
+#sidebar a {
+	color: #FFC;
+}
+#sidebar a:hover {
+	color: #fff;
+}
+
+/* sidebar form elements */
+#sidebar input[type=text], #sidebar input[type=password], #sidebar textarea {
+	background-color: #d59394;
+	color: #333;
+}
+
+/* sidebar widget */
+#sidebar .widget ul, #sidebar .widget li {
+	border-color: #c76f71;
+}
+
+/* site logo */
+#site-logo a {
+	color: #fff;
+}

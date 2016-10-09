@@ -1,0 +1,23 @@
+/*  
+Skin Name: Orange
+Version: 1.0
+Description: Skin for Shopo
+*/
+
+a {
+	color: #b35b33;
+}
+
+/* nav bar and footerwrap*/
+#nav-bar, #footerwrap, .welcome-message {
+	background-color: #e1713c;
+	border-color: #b35b33;
+}
+
+/* footer */
+#footer {
+	color: #f6d5c5;
+}
+#footer .widget li {
+	border-color: #bf6033;
+}

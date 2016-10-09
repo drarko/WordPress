@@ -1,0 +1,97 @@
+/*  
+Skin Name: Red
+Version: 1.0
+Description: Skin for Postline
+*/
+
+body {
+	background-color: #fff;
+}
+a {
+	color: #b1190a;
+}
+
+/************************************************************************************
+Theme background color
+*************************************************************************************/
+#headerwrap {
+	background-color: #e8311f;
+	border-color: #9d1d14;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#header {
+	color: #ddd;
+}
+#header a {
+	color: #faffb6;
+}
+
+/* site logo */
+#site-logo a {
+	color: #fff;
+
+	text-shadow: 0 1px 0 rgba(0,0,0,.3);
+}
+
+/* 
+MAIN NAVIGATION
+================================================ */
+/* main level link */
+#main-nav a {
+	color: #fbf8ce;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+}
+#main-nav a:hover, #main-nav li:hover > a {
+	color: #fff;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #9d1d14;
+}
+
+/************************************************************************************
+TIMELINE
+*************************************************************************************/
+.timeline .timeline-bar {
+	background-color: #dc878c;
+}
+.timeline .timeline-start-dot {
+	background-color: #dc878c;
+	border-color: #a14043;
+}
+
+/* timeline month title */
+.timeline .timeline-month span {
+	background-color: #a14043;
+}
+
+/* timeline post dot */
+.timeline .post-dot {
+	border-color: #a14043;
+}
+
+/* trigger more button */
+.trigger-more {
+	background-color: #a14043;
+}
+
+/************************************************************************************
+POST
+*************************************************************************************/
+/* post nav arrow */
+.post-nav .arrow {
+	background-color: #a14043;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footerwrap {
+	background-color: #a14043;
+}
+#footer a {
+	color: #faffb6;
+}

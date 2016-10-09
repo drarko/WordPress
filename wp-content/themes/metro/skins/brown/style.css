@@ -1,0 +1,21 @@
+/*  
+Skin Name: Brown
+Version: 1.0
+Description: Skin for Metro
+*/
+
+/* default brown color */
+#main-nav a,
+.tile.default,
+.tile-overlay,
+.portfolio #load-more a,
+.post,
+.widget,
+.sorting-nav li {
+	background-color: #a15100;
+}
+
+/* body */
+body {
+	background-color: #5a2900;
+}

@@ -1,0 +1,66 @@
+/*  
+Skin Name: Lavender
+Version: 1.0
+Description: Skin for Simfo
+*/
+
+body {
+	color: #555;
+	background-color: #cfb8e2;
+}
+
+/* form input */
+input[type=text], input[type=password], textarea, input[type=search] {
+	background-color: #c1acd3;
+	border-color: #aa97ba;
+}
+
+/* form input:focus */
+textarea:focus, input[type=password]:focus, input[type=text]:focus, input[type=search]:focus {
+	border-color: #976dbb;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#header {
+	border-color: #7d6f88;
+}
+#site-description {
+	color: #666;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+/* main level link :hover */
+#main-nav a:hover, #main-nav li:hover > a {
+	border-color: #000;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	border-color: #7d6f88;
+}
+
+/************************************************************************************
+COMMENTS
+*************************************************************************************/
+.commentlist,
+.commentlist .commententry {
+	border-color: #bba6cc;
+}
+
+/************************************************************************************
+SIDEBAR
+*************************************************************************************/
+/* widget */
+.widget li {
+	border-color: #bba6cc;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footer {
+	border-color: #7d6f88;
+}

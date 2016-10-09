@@ -1,0 +1,61 @@
+/*  
+Skin Name: Brown
+Version: 1.0
+Description: Skin for Bloggie theme.
+*/
+
+a {
+	color: #a06929;
+}
+
+/* top bar */
+#topbar {
+	background-color: #523512;
+	color: #dbd0c2;
+}
+
+/* tpp bar */
+#topbar a {
+	color: #fff799;
+}
+#topbar a:hover {
+	color: #fff;
+}
+
+/* nav bar */
+#nav-bar {
+	background-color: #523512;
+}
+
+/* main nav */
+#main-nav a {
+	color: #ffe5a7;
+}
+#main-nav a:hover {
+	color: #fff;
+}
+
+/* dropdown */
+#main-nav ul, #secondary-nav ul {
+	background-color: #523512;
+}
+#main-nav ul li a, #secondary-nav ul li a {
+	color: #ffe5a7;
+	border-color: #634219;
+}
+
+/* footer */
+#footer {
+	background-color: #523512;
+	color: #dbd0c2;
+}
+#footer a {
+	color: #fff799;
+}
+#footer .widgettitle, #footer .widgettitle a {
+	color: #fff;
+	border-color: #634219;
+}
+#footer .widget li {
+	border-color: #634219;
+}

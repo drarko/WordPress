@@ -1,0 +1,47 @@
+/*
+Skin Name: Blue
+Version: 1.0
+Description: Skin for Split
+
+*/
+
+#footerwrap,
+.back-top a,
+.pagenav a:hover,
+.pagenav .current {
+	background-color: #0e88be;
+	color: #fff;
+}
+#headerwrap {
+	background-color: rgba(14,136,190,.8);
+}
+a {
+	color: #0e88be;
+}
+input[type=reset],
+input[type=submit],
+button {
+	background-color: #0e88be;
+}
+.commentlist .comment-reply-link {
+	color: #fff;
+	background-color: #0e88be;
+}
+.woocommerce #content input.button,.woocommerce #respond input#submit,.woocommerce a.button,.woocommerce button.button,.woocommerce input.button,.woocommerce-page #content input.button,.woocommerce-page #respond input#submit,.woocommerce-page a.button,.woocommerce-page button.button,.woocommerce-page input.button,.woocommerce #content input.button.alt,.woocommerce #respond input#submit.alt,.woocommerce a.button.alt,.woocommerce button.button.alt,.woocommerce input.button.alt,.woocommerce-page #content input.button.alt,.woocommerce-page #respond input#submit.alt,.woocommerce-page a.button.alt,.woocommerce-page button.button.alt,.woocommerce-page input.button.alt,
+.woocommerce #content nav.woocommerce-pagination ul li a:focus,.woocommerce #content nav.woocommerce-pagination ul li a:hover,.woocommerce #content nav.woocommerce-pagination ul li span.current,.woocommerce nav.woocommerce-pagination ul li a:focus,.woocommerce nav.woocommerce-pagination ul li a:hover,.woocommerce nav.woocommerce-pagination ul li span.current,.woocommerce-page #content nav.woocommerce-pagination ul li a:focus,.woocommerce-page #content nav.woocommerce-pagination ul li a:hover,.woocommerce-page #content nav.woocommerce-pagination ul li span.current,.woocommerce-page nav.woocommerce-pagination ul li a:focus,.woocommerce-page nav.woocommerce-pagination ul li a:hover,.woocommerce-page nav.woocommerce-pagination ul li span.current,
+.woocommerce span.onsale, .woocommerce-page span.onsale, .woocommerce ul.products li.product .onsale, .woocommerce-page ul.products li.product .onsale {
+	background-color: #0e88be;
+}
+.split-left,
+.split-right,
+.split-loader,
+.hidden-view {
+	background-color: #0e88be;
+}
+
+@media screen and (max-width: 1000px) {
+	.sidemenu {
+		background-color: #0e88be;
+		color: #fff;
+	}	
+}

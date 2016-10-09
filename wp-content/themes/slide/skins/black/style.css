@@ -1,0 +1,105 @@
+/*  
+Skin Name: Black
+Version: 1.0
+Description: Skin for Slide
+*/
+
+body {
+	background-color: #333;
+}
+
+a {
+	color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #fff;
+}
+
+/* form button */
+input[type=reset], input[type=submit], button {
+	background-color: #000;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#headerwrap {
+	background-color: #000;
+	border-color: #000;
+}
+#header {
+	color: #ddd;
+}
+#header a {
+	color: #fff;
+}
+
+#site-logo,
+#site-logo a {
+	color: #fff;
+	
+	text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+#main-nav a {
+	color: #ccc;
+
+	text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+}
+#main-nav a:hover {
+	color: #fff;
+}
+
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #222;
+	color: #fff;
+}
+
+/************************************************************************************
+POST
+*************************************************************************************/
+.post-date {
+	background-color: #000;
+}
+
+/* post nav arrow */
+.post-nav .arrow {
+	background-color: #000;
+}
+
+/************************************************************************************
+SIDEBAR
+*************************************************************************************/
+.widget li {
+	border-color: #222;
+}
+.widgettitle {
+	background-color: #111;
+	color: #fff;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footerwrap {
+	background-color: #000;
+	border-color: #000;
+}
+#footer h1,
+#footer h2,
+#footer h3,
+#footer h4,
+#footer h5,
+#footer h6 {
+	color: #ddd;
+}

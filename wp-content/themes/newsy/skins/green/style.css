@@ -1,0 +1,100 @@
+/*  
+Skin Name: Green
+Version: 1.0
+Description: Skin for Newsy
+*/
+
+body {
+	color: #777;
+}
+a {
+	color: #186211;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+}
+input[type=text], input[type=password], textarea {
+	background-color: #edf5ec;
+	border-color: #dbe3da;
+}
+input[type=reset], input[type=submit] {
+	background-color: #186211;
+}
+
+/************************************************************************************
+SLIDER
+*************************************************************************************/
+#header-slider .carousel-nav-wrap a,
+#footer-slider .carousel-nav-wrap a {
+	background-color: #b6bbb5;
+}
+#header-slider .carousel-nav-wrap a:hover,
+#footer-slider .carousel-nav-wrap a:hover {
+	background-color: #186211;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+#nav-bar {
+	background-color: #186211;
+	border-top-color: #0f5920;
+	border-bottom-color: #168331;
+}
+/* main level link */
+#main-nav a {
+	color: #d1e0cf;
+}
+/* main level link :hover */
+#main-nav a:hover {
+	color: #fff;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #0b3d06;
+}
+
+/************************************************************************************
+CONTENT
+*************************************************************************************/
+/* post title */
+.post-title, .post-title a {
+	color: #0b3d06;
+}
+
+/* more link */
+.more-link {
+	background-color: #000;
+	color: #fff;
+}
+
+/* page nav */
+.pagenav .number {
+	background-color: #186211;
+	color: #fff;
+}
+.pagenav .number:hover {
+	background-color: #000;
+}
+.pagenav .current, .pagenav .current:hover {
+	background-color: #fff;
+	color: #666;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footerwrap {
+	background-color: #186211;
+}
+#footer {
+	color: #aec8ac;
+}
+#footer a {
+	color: #fcf8c7;
+}
+
+/* footer widget */
+#footer .widget li {
+	border-color: #0f5920;
+}

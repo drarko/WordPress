@@ -1,0 +1,83 @@
+/*  
+Skin Name: Bookmark
+Version: 1.0
+Description: Skin for Sidepane theme.
+*/
+
+body a {
+	color: #C60;
+}
+body a:hover {
+	color: #67291b;
+}
+
+input[type=reset], input[type=submit] {
+	background-color: #67291b;
+	color: #fff;
+}
+input[type=reset]:hover, input[type=submit]:hover {
+	background-color: #C60;
+}
+
+/* sidebar */
+#sidebar-wrap {
+	background: none;
+	width: 355px;
+	height: auto;
+}
+#sidebar {
+	padding: 20px 20px 1px 20px;
+	color: #edb083;
+	background: url(images/bookmark.png) repeat-y left top;
+	position: relative;
+	margin: 0 0 90px 20px;
+}
+#sidebar:after {
+	content: '';
+	position: absolute;
+	bottom: -75px;
+	left: 0;
+	width: 100%;
+	height: 75px;
+	background: url(images/bookmark-bottom.png) no-repeat;
+	visibility: visible;
+	z-index: 0;
+}
+#sidebar input[type=text], #sidebar input[type=password], #sidebar textarea {
+	background-color: #edb083;
+	color: #333;
+}
+
+/* main nav wrap */
+#main-nav-wrap {
+	border-color: #b15336;
+}
+
+#sidebar ul, #sidebar li {
+	border-color: #b15336;
+}
+#sidebar h4, .widgettitle {
+	color: #facebf;
+}
+#sidebar a {
+	color: #FFC;
+}
+#sidebar a:hover {
+	color: #fff;
+}
+
+/* site logo */
+#site-logo a {
+	color: #fff;
+}
+
+/* footer-text */
+#footer-text {
+	text-align: center;
+	font: italic 10px/160% Georgia, "Times New Roman", Times, serif;
+	width: 275px;
+	left: 20px;
+	bottom: -35px;
+	padding-top: 10px;
+	z-index: 1;
+}

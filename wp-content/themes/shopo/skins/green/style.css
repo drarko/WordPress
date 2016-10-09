@@ -1,0 +1,23 @@
+/*  
+Skin Name: Green
+Version: 1.0
+Description: Skin for Shopo
+*/
+
+a {
+	color: #6b894a;
+}
+
+/* nav bar and footerwrap*/
+#nav-bar, #footerwrap, .welcome-message {
+	background-color: #87aa59;
+	border-color: #6b894a;
+}
+
+/* footer */
+#footer {
+	color: #dbe6ce;
+}
+#footer .widget li {
+	border-color: #73914c;
+}

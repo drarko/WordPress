@@ -1,0 +1,7 @@
+.themify_builder_module_panel .module-type-pro-slider:before {
+    content: "\e6ef";
+}
+
+select.tfb_lb_option_child {
+  width: 100%;
+}

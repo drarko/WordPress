@@ -1,0 +1,157 @@
+/*  
+Skin Name: Yellow
+Version: 1.0
+Description: Skin for Funki
+*/
+
+body {
+	background-color: #fff000;
+}
+a {
+	color: #ffba00;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #ffc600;
+}
+input[type=reset], input[type=submit] {
+	background-color: #ffc600;
+}
+input[type=reset]:hover, input[type=submit]:hover {
+	background-color: #ffba00;
+}
+
+/************************************************************************************
+STRUCTURE
+*************************************************************************************/
+#pagewrap {
+	border-color: #ffc600;
+}
+
+/************************************************************************************
+SLIDER
+*************************************************************************************/
+#slider {
+	border-color: #ffc600;
+}
+.slider-nav a {
+	background-color: #ffc600;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#header {
+	border-color: #ffc600;
+}
+
+/* site logo */
+#site-logo a {
+	color: #ffc600;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+/* main level link */
+#main-nav a {
+	color: #ffc600;
+}
+/* main level link :hover */
+#main-nav a:hover, #main-nav li:hover > a {
+	background-color: #ffc600;
+	color: #fff;
+}
+
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #ffc600;
+}
+
+/* dropdown ul */
+#main-nav ul {
+	border-color: #ffc600;
+}
+
+/* sub-levels link :hover */
+#main-nav ul a:hover, #main-nav .current_page_item ul a:hover, #main-nav ul .current_page_item a:hover, #main-nav .current-menu-item ul a:hover, #main-nav ul .current-menu-item a:hover, #main-nav li:hover > ul a:hover {
+	background-color: #ffc600;
+}
+
+/************************************************************************************
+CONTENT
+*************************************************************************************/
+/* post title */
+.post-title, .post-title a {
+	color: #ffc600;
+}
+.post-title a:hover {
+	color: #ffba00;
+}
+
+/* post date */
+.post-date {
+	background-color: #ffc600;
+}
+.post-date:after {
+	border-left-color: #ffc600 !important;
+}
+
+/* more link */
+.more-link {
+	background-color: #ffc600;
+}
+.more-link:hover {
+	background-color: #ffba00;
+}
+
+/************************************************************************************
+COMMENTS
+*************************************************************************************/
+.commentwrap {
+	border-color: #ffc600;
+}
+.commentlist .comment-reply-link {
+	background-color: #ffc600;
+}
+.commentlist .comment-reply-link:hover {
+	background-color: #ffba00;
+}
+
+/************************************************************************************
+POST NAVIGATION
+*************************************************************************************/
+.post-nav .prev .arrow, .post-nav .next .arrow {
+	background-color: #ffc600;
+}
+
+/************************************************************************************
+PAGE NAVIGATION
+*************************************************************************************/
+.pagenav a {
+	background-color: #ffc600;
+	color: #fff;
+}
+.pagenav a:hover {
+	background-color: #ffba00;
+}
+
+/************************************************************************************
+SIDEBAR
+*************************************************************************************/
+.widgettitle {
+	background-color: #ffc600;
+}
+
+/************************************************************************************
+Footer
+*************************************************************************************/
+#footer {
+	background-color: #ffc600;
+	color: #fff;
+}
+#footer a {
+	color: #fffcd1;
+}
+#footer .widget li {
+	border-color: #e5bd01;
+}

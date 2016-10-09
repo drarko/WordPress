@@ -1,0 +1,90 @@
+/*  
+Skin Name: Yellow
+Version: 1.0
+Description: Skin for Minblr
+*/
+
+body {
+	background: #fcd04d url(images/body-bg.png);
+}
+a {
+	color: #b58028;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #6f5e64;
+}
+input[type=reset], input[type=submit] {
+	background-color: #a77c05;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#header {
+	color: #8e6726;
+}
+
+/* site logo */
+#site-logo a {
+	color: #603913;
+}
+
+/* search form */
+#header #searchform input#s {
+	background-color: #a5872b;
+}
+
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+/* main level link */
+#main-nav a {
+	color: #8e6726;
+}
+/* main level link :hover */
+#main-nav a:hover {
+	color: #000;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #a5872b;
+}
+
+/************************************************************************************
+CONTENT
+*************************************************************************************/
+#body {
+	border-color: #bf9b2e;
+}
+
+/* post icon */
+.post-icon {
+	background-color: #a77c05;
+}
+
+/* post title */
+.post-title, .post-title a {
+	color: #a77c05;
+}
+
+/* page nav */
+.pagenav .number {
+	background-color: #a77c05;
+	color: #fff;
+}
+.pagenav .current, .pagenav .current:hover {
+	background-color: #fff;
+	color: #666;
+	border: solid 1px #ddd;
+}
+
+/************************************************************************************
+Footer
+*************************************************************************************/
+#footer {
+	color: #8e6726;
+}
+#footer a {
+	color: #533708;
+}

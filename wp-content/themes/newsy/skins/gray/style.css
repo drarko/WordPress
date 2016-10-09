@@ -1,0 +1,100 @@
+/*  
+Skin Name: Gray
+Version: 1.0
+Description: Skin for Newsy
+*/
+
+body {
+	color: #777;
+}
+a {
+	color: #000;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #000;
+}
+input[type=text], input[type=password], textarea {
+	background-color: #eee;
+	border-color: #ddd;
+}
+input[type=reset], input[type=submit] {
+	background-color: #555;
+}
+
+/************************************************************************************
+SLIDER
+*************************************************************************************/
+#header-slider .carousel-nav-wrap a,
+#footer-slider .carousel-nav-wrap a {
+	background-color: #b6bbb5;
+}
+#header-slider .carousel-nav-wrap a:hover,
+#footer-slider .carousel-nav-wrap a:hover {
+	background-color: #7d7d7d;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+#nav-bar {
+	background-color: #7d7d7d;
+	border-top-color: #666666;
+	border-bottom-color: #9f9f9f;
+}
+/* main level link */
+#main-nav a {
+	color: #ddd;
+}
+/* main level link :hover */
+#main-nav a:hover {
+	color: #fff;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #555;
+}
+
+/************************************************************************************
+CONTENT
+*************************************************************************************/
+/* post title */
+.post-title, .post-title a {
+	color: #000;
+}
+
+/* more link */
+.more-link {
+	background-color: #666;
+	color: #fff;
+}
+
+/* page nav */
+.pagenav .number {
+	background-color: #7d7d7d;
+	color: #fff;
+}
+.pagenav .number:hover {
+	background-color: #000;
+}
+.pagenav .current, .pagenav .current:hover {
+	background-color: #fff;
+	color: #666;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footerwrap {
+	background-color: #7d7d7d;
+}
+#footer {
+	color: #ccc;
+}
+#footer a {
+	color: #fff;
+}
+
+/* footer widget */
+#footer .widget li {
+	border-color: #666666;
+}

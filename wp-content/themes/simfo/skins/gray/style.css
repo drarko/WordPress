@@ -1,0 +1,66 @@
+/*  
+Skin Name: Gray
+Version: 1.0
+Description: Skin for Simfo
+*/
+
+body {
+	color: #555;
+	background-color: #d8d8d8;
+}
+
+/* form input */
+input[type=text], input[type=password], textarea, input[type=search] {
+	background-color: #c9c9c9;
+	border-color: #b9b8b8;
+}
+
+/* form input:focus */
+textarea:focus, input[type=password]:focus, input[type=text]:focus, input[type=search]:focus {
+	border-color: #828282;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#header {
+	border-color: #828282;
+}
+#site-description {
+	color: #666;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+/* main level link :hover */
+#main-nav a:hover, #main-nav li:hover > a {
+	border-color: #000;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	border-color: #828282;
+}
+
+/************************************************************************************
+COMMENTS
+*************************************************************************************/
+.commentlist,
+.commentlist .commententry {
+	border-color: #c2c2c2;
+}
+
+/************************************************************************************
+SIDEBAR
+*************************************************************************************/
+/* widget */
+.widget li {
+	border-color: #c2c2c2;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footer {
+	border-color: #828282;
+}

@@ -1,0 +1,140 @@
+/*  
+Skin Name: Black
+Version: 1.0
+Description: Skin for Wigi theme.
+*/
+
+body {
+	color: #bbb;
+}
+h1, h2, h3, h4, h5, h6 {
+	text-shadow: 0 -1px 1px rgba(0,0,0,.8);
+	color: #ccc;
+}
+a {
+	color: #cfecff;
+}
+
+input[type=text], input[type=password], textarea {
+	background-color: #999;
+	border-color: #000;
+}
+textarea:focus, input[type=password]:focus, input[type=text]:focus {
+	background-color: #fff;
+}
+
+/************************************************************************************
+TOP BAR
+*************************************************************************************/
+#topbar {
+	background-color: #222;
+	background-color: rgba(0,0,0,.85);
+	border-color: #000;
+	box-shadow: inset 0 -1px 0 rgba(255,255,255,.1);
+}
+#topbar a {
+	color: #fff;
+	text-shadow: 0 1px 3px rgba(0,0,0,.7);
+}
+#topbar a:hover {
+	color: #cfecff;
+}
+
+/************************************************************************************
+SLIDER
+*************************************************************************************/
+#slider .slides li {
+	background-color: #222;
+}
+
+/************************************************************************************
+ROUNDED CORNER STYLE
+*************************************************************************************/
+#slider,
+.post,
+.commentlist .avatar,
+.page-content,
+.category-title,
+.category-section-title,
+.commententry,
+.comment-title,
+#respond,
+.post-nav,
+#sidebar .widget, 
+#footer .widget, 
+.footer-txt {
+	background-color: #111;
+	background-color: rgba(0,0,0,.85);
+	border-color: #222;
+	box-shadow: 0 1px 2px rgba(0,0,0,.3);
+}
+
+/************************************************************************************
+POST
+*************************************************************************************/
+/* post title */
+.post-title a {
+	color: #fff;
+	text-shadow: 0 -1px 1px rgba(0,0,0,.7);
+}
+.post-title a:hover {
+	color: #cfecff;
+}
+
+/* post meta */
+.post-meta {
+	background-color: #1f1f1f;
+	background-color: rgba(111,111,111,.1);
+}
+.post-meta a {
+	color: #cfecff;
+}
+.post-meta a:hover {
+	color: #fff;
+}
+
+/* more link */
+.more-link {
+	background-color: #333;
+}
+.more-link:hover {
+	background-color: #cfecff;
+	color: #000;
+}
+
+/************************************************************************************
+SIDEBAR
+*************************************************************************************/
+/* widgettitle */
+.widgettitle {
+	background-color: #222;
+	
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjM1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC4xIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background-image: -moz-linear-gradient(top,  rgba(255,255,255,0.35) 0%, rgba(0,0,0,0.1) 100%);
+	background-image: -webkit-linear-gradient(top,  rgba(255,255,255,0.35) 0%,rgba(0,0,0,0.1) 100%);
+	background-image: linear-gradient(to bottom,  rgba(255,255,255,0.35) 0%,rgba(0,0,0,0.1) 100%);
+	
+	border-color: #111;
+}
+
+/* widget li */
+.widget ul li,
+.widget ul ul {
+	border-color: #222;
+}
+
+/************************************************************************************
+IMAGE STYLES
+*************************************************************************************/
+.single-post-img img, .post-image img,
+img.alignleft, img.aligncenter, img.alignright, img.alignnone, .wp-caption img,
+.widget .feature-posts-list .post-img,
+.widget .flickr_badge_image img,
+.recent-comments-list .avatar,
+#pagewrap .gallery img,
+.attachment img,
+.menu-image img
+{
+	background-color: #333;
+	border-color: #000;
+}

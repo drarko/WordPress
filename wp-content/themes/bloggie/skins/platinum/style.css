@@ -1,0 +1,87 @@
+/*  
+Skin Name: Platinum
+Version: 1.0
+Description: Skin for Bloggie theme.
+*/
+
+/* searchform */
+#header #s {
+	border-color: #888;
+}
+
+/* top and nav bar */
+#topbar,
+#nav-bar {
+	background-image: url(images/noise-bg.png);
+	background-color: #eee;
+	box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.35);
+}
+#nav-bar:after,
+#topbar:after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwLjUiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+	background-image: -moz-linear-gradient(top,  rgba(255,255,255,0.5) 0%, rgba(255,255,255,0) 100%);
+	background-image: -webkit-linear-gradient(top,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 100%);
+	background-image: linear-gradient(to bottom,  rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 100%);
+}
+
+/* top bar */
+#topbar {
+	color: #777;
+	border-color: #5F5E5E;
+	box-shadow: inset 0 -2px 5px rgba(0, 0, 0, 0.35),  0 0 3px rgba(0,0,0,.4);
+}
+#topbar a {
+	color: #333;
+}
+#topbar a:hover {
+	color: #000;
+}
+
+/* main nav */
+#main-nav a {
+	color: #666;
+	text-shadow: 0 1px 0 rgba(255,255,255,.8);
+}
+#main-nav a:hover {
+	color: #000;
+}
+#main-nav ul a {
+	color: #666;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.7);
+}
+
+/* secondary nav */
+#secondary-nav a {
+	color: #777;
+}
+#secondary-nav a:hover {
+	color: #000;
+}
+/* active link */
+#secondary-nav .current_page_item a {
+	color: #000;
+}
+
+/* footer */
+#footer {
+	background-color: #eee;
+	border-top: solid 1px #ccc;
+	color: #999;
+}
+#footer .widgettitle, #footer .widgettitle a {
+	color: #777;
+	border-color: #dbdbdb;
+}
+#footer a {
+	color: #666;
+}
+#footer .widget li {
+	border-color: #dbdbdb;
+}

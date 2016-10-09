@@ -1,0 +1,81 @@
+/*  
+Skin Name: Yellow
+Version: 1.0
+Description: Skin for Bold
+*/
+
+body {
+	color: #000;
+	background-color: #ffff9c;
+}
+
+/* color reset */
+a,
+#main-nav a:hover,
+#main-nav li:hover > a,
+#main-nav .current_page_item a,
+#main-nav .current_page_item a:hover {
+	color: #000;
+}
+#site-logo a,
+#site-description,
+#main-nav a {
+	color: #484800;
+}
+
+/* headerwrap and footerwrap */
+#headerwrap {
+	border-color: #949401;
+}
+#footerwrap {
+	border-top: 1px solid #949401;
+}
+
+#headerwrap,
+#footerwrap {
+	color: #fff;
+	background-color: #d1d101;
+}
+
+/* header */
+#site-description {
+	border-color: #dede01;
+}
+
+#header #searchform #s {
+	background-color: #ecec99;
+	background-color: rgba(255,255,255,.6);
+	color: #a5a56a;
+}
+#header #searchform #s:focus {
+	color: #484800;
+}
+
+/* form input and buttons */
+input[type=text],
+input[type=password],
+textarea,
+input[type=search],
+input[type=email] {
+	background-color: #e5e58c;
+}
+input[type=reset]:hover,
+input[type=submit]:hover,
+button:hover {
+	color: #fff;
+	background-color: #444;
+}
+
+/* load more button and page navigation */
+#load-more a,
+.post-nav .arrow,
+.pagenav a {
+	background-color: #333;
+}
+
+/* horizontal rule and commentlist */
+hr,
+.commentlist,
+.commentlist .commententry {
+	border-color: #e5e58c;
+}

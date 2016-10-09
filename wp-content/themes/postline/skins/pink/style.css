@@ -1,0 +1,94 @@
+/*  
+Skin Name: Pink
+Version: 1.0
+Description: Skin for Postline
+*/
+
+body {
+	background-color: #fef8fb;
+}
+a {
+	color: #ec008c;
+}
+
+/************************************************************************************
+Theme background color
+*************************************************************************************/
+#headerwrap {
+	background-color: #fdbde3;
+	border-color: #e464ac;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#header {
+	color: #ddd;
+}
+#header a {
+	color: #a70f6c;
+}
+
+/* site logo */
+#site-logo a {
+	color: #401f23;
+}
+
+/* 
+MAIN NAVIGATION
+================================================ */
+/* main level link */
+#main-nav a {
+	color: #a70f6c;
+}
+#main-nav a:hover, #main-nav li:hover > a {
+	color: #350321;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #e464ac;
+}
+
+/************************************************************************************
+TIMELINE
+*************************************************************************************/
+.timeline .timeline-bar {
+	background-color: #e2a6ba;
+}
+.timeline .timeline-start-dot {
+	background-color: #e2a6ba;
+	border-color: #b25267;
+}
+
+/* timeline month title */
+.timeline .timeline-month span {
+	background-color: #b25267;
+}
+
+/* timeline post dot */
+.timeline .post-dot {
+	border-color: #b25267;
+}
+
+/* trigger more button */
+.trigger-more {
+	background-color: #b25267;
+}
+
+/************************************************************************************
+POST
+*************************************************************************************/
+/* post nav arrow */
+.post-nav .arrow {
+	background-color: #b25267;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footerwrap {
+	background-color: #b25267;
+}
+#footer a {
+	color: #faffb6;
+}

@@ -1,0 +1,45 @@
+/*  
+Skin Name: Minimal
+Version: 1.0
+Description: Skin for Shopo
+*/
+
+body {
+	background-color: #fff;
+}
+
+a {
+	color: #000;
+}
+
+/* header */
+#headerwrap {
+	background-color: #ededed;
+}
+
+/* nav bar */
+#nav-bar {
+	background-color: #999;
+	border: none;
+}
+
+/* welcome message */
+.welcome-message {
+	background-color: #999;
+	border: none;
+}
+
+/* product slider */
+.product-sliderwrap {
+	background-color: #eee;
+	border: none;
+}
+
+/* footer */
+#footerwrap {
+	background-color: #999;
+	border: none;
+}
+#footer .widget li {
+	border-color: #888;
+}

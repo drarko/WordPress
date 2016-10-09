@@ -1,0 +1,107 @@
+/*  
+Skin Name: Blue
+Version: 1.0
+Description: Skin for Photobox.
+*/
+
+html {
+	background: #c9cdd0 url(images/html-bg.png);
+}
+body {
+	background: url(images/body-bg.png) repeat-x;
+	color: #494e51;
+}
+a {
+	color: #0a60c0;
+}
+input[type=text], input[type=password], textarea {
+	background-color: #7a8692;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #362f2d;
+	text-shadow: 0 1px 1px rgba(0,0,0,.2);
+}
+
+/* site logo */
+#site-logo {
+	text-shadow: 0 1px 2px rgba(0,0,0,.2);
+}
+#site-logo a {
+	color: #213251;
+}
+
+/* header widget */
+.header-widget  a {
+	color: #6a6f72;
+}
+.header-widget  a:hover {
+	color: #4b5257;
+}
+
+/* post title */
+.post-title a {
+	color: #0a60c0;
+}
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+/* main level link */
+#main-nav a {
+	color: #6a6f72;
+	text-shadow: 0 1px 0 rgba(0,0,0,.1);
+}
+/* main level link :hover */
+#main-nav a:hover {
+	color: #4b5257;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #7a8692;
+}
+
+/* next prev post */
+.next-prev-post em {
+	color: #666;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footerwrap {
+	background: url(images/footer-bg.png) repeat-x;
+}
+#footer {
+	color: #a9b1c0;
+}
+#footer a {
+	color: #9ccfe4;
+}
+#footer h1,
+#footer h2,
+#footer h3,
+#footer h4,
+#footer h5,
+#footer h6
+{
+	color: #fff;
+}
+#footer .widget li {
+	border-color: #1e2a3c;
+}
+
+/************************************************************************************
+BORDER COLOR
+*************************************************************************************/
+#header,
+.welcome-message,
+.widget li,
+.pagenav,
+.next-prev-post,
+.commentlist,
+.commentlist .commententry
+{
+	border-color: #a4a5a6;
+}
+

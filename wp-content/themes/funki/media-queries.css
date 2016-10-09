@@ -1,0 +1,453 @@
+@media screen and (max-width: 1150px) {
+	
+	/************************************************************************************
+	STRUCTURE
+	*************************************************************************************/
+	#pagewrap {
+		max-width: 100%;
+	}
+
+	/* reset grid to percentage */
+	.col4-1,
+	.col4-2,
+	.col4-3,
+	.col3-1,
+	.col3-2,
+	.col2-1
+	{
+		margin-left: 2%;
+	}
+	.col4-1 {
+		max-width: 23%;
+	}
+	.col4-2, .col2-1 {
+		max-width: 48%;
+	}
+	.col4-3 {
+		max-width: 72%;
+	}
+	.col3-1 {
+		max-width: 31%;
+	}
+	.col3-2 {
+		max-width: 62%;
+	}
+	/* #body */
+	#body {
+		padding-left: 3.35%;
+		padding-right: 3.35%;
+	}
+	#header {
+		margin-left:3.35%;
+		margin-right:3.35%;
+	}
+	/* post layouts */
+	.loops-wrapper.grid4 .post {
+		width: 23.125%;
+		margin-left: 2.5%;
+	}
+	.loops-wrapper.grid3 .post {
+		width: 31%;
+		margin-left: 3.5%;
+	}
+	.loops-wrapper.grid2 .post {
+		width: 48%;
+		margin-left: 3.75%;
+	}
+	.loops-wrapper.list-large-image .post-image {
+		float: none;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 780px) {
+	#header {
+		height: auto !important;
+		margin-left:3.35%;
+		margin-right:3.35%;
+	
+		padding: 0;
+}
+	#site-logo {
+		position: static !important;
+		margin: 15px 90px 5px 0;
+		padding: 0;
+	}
+	#site-description {
+		position: static !important;
+		padding: 0 0 5px;
+		margin: 0;
+	}
+	.social-widget {
+		position: static !important;
+		padding: 0 0 40px;
+		z-index: 1;
+	}
+	.header-widget {
+		position: static !important;
+		margin: 0 0 15px;
+		clear: both;
+		float: none;
+	}
+	#headerwrap #main-nav {
+		position: static;
+		clear: both;
+		z-index: 100;
+	}
+	#header #searchform {
+		position: absolute;
+		top: 8px;
+		max-height: 50px;
+	}
+	#header #searchform #s {
+		width: 80px;
+	}
+	#content {
+		width: 100%;
+		float: none;
+		clear: both;
+	}
+	/* grid2-thumb post */
+	.loops-wrapper.grid2-thumb .post,
+	.sidebar1 .loops-wrapper.grid2-thumb .post {
+		width: 100%;
+		margin-left: 0;
+		float: none;
+	}
+	/* grid4-post */
+	.loops-wrapper.grid4 .post,
+	.sidebar1 .loops-wrapper.grid4 .post {
+		width: 100%;
+		margin-left: 0;
+		float: none;
+	}
+	.loops-wrapper.grid4 .post-image {
+		float: left;
+		margin: 0 20px 10px 0;
+		max-width: 30%;
+	}
+	/* list thumb image */
+	.loops-wrapper.list-thumb-image .post-image {
+		max-width: 30%;
+	}
+	/* sidebar */
+	#sidebar {
+		float: none;
+		clear: both;
+		width: 100%;
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 680px) {
+
+	/************************************************************************************
+	GRID
+	*************************************************************************************/
+	.col4-1,
+	.col4-2,
+	.col4-3,
+	.col3-1,
+	.col3-2,
+	.col2-1 {
+		margin-left: 0;
+	}
+	.col4-1,
+	.col4-2, .col2-1,
+	.col4-3,
+	.col3-1,
+	.col3-2	 {
+		width: 100%;
+		max-width: 100%;
+	}
+	.col4-1,
+	.col4-2, .col2-1,
+	.col4-3,
+	.col3-1,
+	.col3-2	 {
+		margin-left: 0 !important;
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+
+	/* grid3 */
+	.loops-wrapper.grid3 .post,
+	.sidebar1 .loops-wrapper.grid3 .post {
+		width: 100%;
+		margin-left: 0;
+		float: none;
+	}
+	.loops-wrapper.grid3 .post-image {
+		float: left;
+		margin: 0 20px 10px 0;
+		max-width: 40%;
+	}
+	/* slider */
+	.slide-content-wrap {
+		font-size: 80%;
+		line-height: 120%;
+	}
+	/* footer columns */
+	#footer .col4, #footer .col3, #footer .col2 {
+		width: 100%;
+		float: none;
+		margin: 0;
+	}
+
+	/* disable webkit text size adjust (for iPhone) */
+	html {
+		-webkit-text-size-adjust: none;
+	}
+
+	/************************************************************************************
+	GRID
+	*************************************************************************************/
+	.col4-1,
+	.col4-2, .col2-1,
+	.col4-3,
+	.col3-1,
+	.col3-2	 {
+		margin-left: 0 !important;
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+
+	/************************************************************************************
+	HEADER
+	*************************************************************************************/
+	/* site logo */
+	#site-logo {
+		font-size: 48px;
+		text-align: left;
+		width: auto;
+	}
+	
+	/* site description */
+	#site-description {
+		text-align: left;
+		margin: 0 0 10px;
+	}
+		
+	/* social widget */
+	.social-widget {
+		position: static;
+		float: none;
+		padding: 0;
+		overflow: hidden;
+		margin-bottom: 10px;
+	}
+
+	/************************************************************************************
+	MOBILE NAV BUTTON
+	*************************************************************************************/
+	.mobile-button {
+		position: relative;
+		width: 32px;
+		height: 30px;
+		margin-bottom: 3px;
+		margin-right: 3px;
+		display: block;
+		float: right;
+		cursor: pointer;
+		background-color: #eee;
+		border-radius: 5px;
+	}
+	.mobile-button:before {
+		content: "\f0c9";
+		font: normal 21px/1em FontAwesome;
+		color: #000;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		margin: -.5em 0 0 -.5em;
+		width: 1em;
+		height: 1em;
+		text-align: center;
+	}
+	.mobile-button.active:before {
+		color: #555;
+	}
+
+	/************************************************************************************
+	MAIN NAV (MOBILE)
+	*************************************************************************************/
+	#main-nav-wrap {
+		position: absolute;
+		top: 5px;
+		right: 0;
+		z-index: 1000;
+	}
+	
+	/* main nav */
+	#headerwrap #main-nav {
+		clear: both;
+		position: static;
+		width: 160px;
+		height: auto;
+		z-index: 1000;
+		padding: 10px 5px;
+		background-color: #fff;
+		border: solid 1px #999;
+		display: none; /* visibility will be toggled with jquery */
+		box-shadow: 1px 2px 0 rgba(0,0,0,.2);
+		border-radius: 5px;
+	}
+	#headerwrap #main-nav li {
+		clear: both;
+		float: none;
+		margin: 5px 0 5px 10px;
+		padding: 0;
+		border: none;
+		box-shadow: none;
+	}
+	#headerwrap #main-nav a, 
+	#headerwrap #main-nav ul a {
+		font: inherit;
+		text-transform: inherit;
+		background: none;
+		width: auto;
+		display: inline;
+		padding: 0;
+		color: #666;
+		border: none;
+		text-shadow: none;
+		box-shadow: none;
+	}
+	#headerwrap #main-nav a:hover, 
+	#headerwrap #main-nav ul a:hover {
+		background: none;
+		color: #000;
+	}
+	
+	/* dropdown */
+	#headerwrap #main-nav ul {
+		position: static;
+		display: block;
+		margin: 0;
+		padding: 0;
+		background: none;
+		border: none;
+		border-radius: 0;
+		box-shadow: none;
+	}
+	
+	/************************************************************************************
+	SEARCH FORM
+	*************************************************************************************/
+	#searchform-wrap {
+		position: absolute;
+		top: 5px;
+		right: 40px;
+		z-index: 1000;
+	}
+	#search-icon:before {
+		content: "\f002";
+		font-size: 19px;
+	}
+	
+	#header #searchform {
+		clear: both;
+		width: auto;
+		width: 126px \0;
+		position: static;
+		overflow: hidden;
+		background-color: #fff;
+		border: solid 1px #999;
+		padding: 5px;
+		display: none; /* visibility will be toggled with jquery */
+		border-radius: 5px;
+		box-shadow: 0 1px 2px rgba(0,0,0,.3);
+	}
+	#header #searchform #s {
+		background-color: #ddd !important;
+		color: #444 !important;
+		padding-left: 8px;
+		width: 112px \0;
+	}
+
+	/************************************************************************************
+	POST
+	*************************************************************************************/
+	/* post */
+	.post {
+		width: auto !important;
+		max-width: 100% !important;
+		margin-left: 0 !important;
+		float: none !important;
+	}
+	
+	/* post title */
+	.post-title {
+		margin: 0 0 2px !important;
+		font-size: 2em !important;
+	}
+
+	/* post image */
+	.post-image {
+		float: none !important;
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+	}
+
+	/* post content */
+	.post-content {
+		overflow: visible !important;
+		float: none !important;
+	}
+
+	/************************************************************************************
+	POST NAV
+	*************************************************************************************/
+	.post-nav .prev, .post-nav .next {
+		display: block;
+		width: 100%;
+		clear: both;
+		margin-bottom: 10px;
+	}
+	
+	/************************************************************************************
+	COMMENTS
+	*************************************************************************************/
+	.commentlist {
+		padding-left: 0;
+	}
+	.commentlist .commententry {
+		clear: left;
+	}
+	.commentlist .avatar {
+		float: left;
+		width: 40px;
+		height: 40px;
+		margin: 0 10px 10px 0;
+	}
+
+	/************************************************************************************
+	FOOTER
+	*************************************************************************************/
+	#footer-logo {
+		position: static;
+	}
+	.footer-nav {
+		padding: 0;
+	}
+	
+	/************************************************************************************
+	WOOCOMMERCE SUPPORT
+	*************************************************************************************/
+	.woocommerce #content div.product div.images,
+	.woocommerce #content div.product div.summary {
+		float: none !important;
+		width: 100% !important;
+	}
+
+}
+
+@media screen and (min-width: 681px) {
+
+	/* ensure #nav and #searchform is visible on desktop version */
+	#main-nav,
+	#headerwrap #searchform {
+		display: block !important;
+	}
+
+}

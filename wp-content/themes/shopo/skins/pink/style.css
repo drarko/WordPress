@@ -1,0 +1,23 @@
+/*  
+Skin Name: Pink
+Version: 1.0
+Description: Skin for Shopo
+*/
+
+a {
+	color: #9c5b77;
+}
+
+/* nav bar and footerwrap*/
+#nav-bar, #footerwrap, .welcome-message {
+	background-color: #c36f95;
+	border-color: #9c5b77;
+}
+
+/* footer */
+#footer {
+	color: #edd4df;
+}
+#footer .widget li {
+	border-color: #a65e7f;
+}

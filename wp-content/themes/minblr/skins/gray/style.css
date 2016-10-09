@@ -1,0 +1,85 @@
+/*  
+Skin Name: Gray
+Version: 1.0
+Description: Skin for Minblr
+*/
+
+body {
+	background: #666 url(images/body-bg.png);
+	color: #888;
+}
+a {
+	color: #000;
+}
+input[type=reset], input[type=submit] {
+	background-color: #616161;
+}
+
+/************************************************************************************
+HEADER
+*************************************************************************************/
+#header {
+	color: #eee;
+}
+
+/* site logo */
+#site-logo a {
+	color: #fff;
+}
+
+/* search form */
+#header #searchform input#s {
+	background-color: #666;
+}
+
+
+/************************************************************************************
+MAIN NAVIGATION
+*************************************************************************************/
+/* main level link */
+#main-nav a {
+	color: #eee;
+}
+/* main level link :hover */
+#main-nav a:hover {
+	color: #fff;
+}
+/* current link */
+#main-nav .current_page_item a, #main-nav .current-menu-item a {
+	background-color: #666;
+}
+
+/************************************************************************************
+CONTENT
+*************************************************************************************/
+#body {
+	border-color: #666;
+}
+
+/* post icon */
+.post-icon {
+	background-color: #616161;
+}
+
+/* post title */
+.post-title, .post-title a {
+	color: #616161;
+}
+
+/* page nav */
+.pagenav .number {
+	background-color: #616161;
+	color: #fff;
+}
+.pagenav .current, .pagenav .current:hover {
+	background-color: #fff;
+	color: #666;
+	border: solid 1px #ddd;
+}
+
+/************************************************************************************
+Footer
+*************************************************************************************/
+#footer {
+	color: #eee;
+}
